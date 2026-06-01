@@ -65,6 +65,11 @@ export default function HomePage() {
       </main>
 
       <footer className="mt-auto border-t border-slate-200 py-6 text-center text-sm text-slate-400">
+        <div className="mb-2">
+          <Link href="/o-nas" className="hover:text-slate-600 transition-colors">O nas</Link>
+          <span className="mx-2">·</span>
+          <a href="mailto:kontakt@znajdzkrawca.pl" className="hover:text-slate-600 transition-colors">Kontakt</a>
+        </div>
         © 2026 Znajdź Krawca — Katalog krawców w Polsce
       </footer>
     </>
