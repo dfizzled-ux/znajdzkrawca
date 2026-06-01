@@ -4,12 +4,16 @@ import SearchBar from '@/components/SearchBar';
 import { cities, tailors } from '@/lib/data';
 
 const CITY_ICONS = {
-  warszawa: '🏛️',
-  krakow: '👑',
-  wroclaw: '🌉',
-  gdansk: '⚓',
-  lodz: '🧵',
-  poznan: '🐐',
+  warszawa:  '🏛️',
+  krakow:    '👑',
+  wroclaw:   '🌉',
+  gdansk:    '⚓',
+  lodz:      '🧵',
+  poznan:    '🐐',
+  katowice:  '⛏️',
+  lublin:    '🌿',
+  szczecin:  '🚢',
+  bydgoszcz: '🌊',
 };
 
 export default function HomePage() {

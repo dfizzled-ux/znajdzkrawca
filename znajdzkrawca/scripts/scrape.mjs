@@ -10,12 +10,16 @@ import { dirname, join } from 'path';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const CITIES = [
-  { slug: 'warszawa', region: 'mazowieckie,,warszawa' },
-  { slug: 'krakow',   region: 'małopolskie,,kraków' },
-  { slug: 'wroclaw',  region: 'dolnośląskie,,wrocław' },
-  { slug: 'gdansk',   region: 'pomorskie,,gdańsk' },
-  { slug: 'lodz',     region: 'łódzkie,,łódź' },
-  { slug: 'poznan',   region: 'wielkopolskie,,poznań' },
+  { slug: 'warszawa',  region: 'mazowieckie,,warszawa' },
+  { slug: 'krakow',    region: 'małopolskie,,kraków' },
+  { slug: 'wroclaw',   region: 'dolnośląskie,,wrocław' },
+  { slug: 'gdansk',    region: 'pomorskie,,gdańsk' },
+  { slug: 'lodz',      region: 'łódzkie,,łódź' },
+  { slug: 'poznan',    region: 'wielkopolskie,,poznań' },
+  { slug: 'katowice',  region: 'śląskie,,katowice' },
+  { slug: 'lublin',    region: 'lubelskie,,lublin' },
+  { slug: 'szczecin',  region: 'zachodniopomorskie,,szczecin' },
+  { slug: 'bydgoszcz', region: 'kujawsko-pomorskie,,bydgoszcz' },
 ];
 
 const BASE = 'https://panoramafirm.pl';
@@ -28,12 +32,10 @@ function sleep(ms) {
 
 async function extractListings(page) {
   return page.evaluate(() => {
-    const cards = Array.from(
-      document.querySelectorAll('div[class*="target:border-r-blue"]')
-    );
+    const cards = Array.from(document.querySelectorAll('div[id^="company_"]'));
 
     return cards.flatMap((card) => {
-      // Name — the main title link
+      // Name
       const nameEl = card.querySelector('a[data-ga="l-title"]');
       const name = nameEl?.textContent.trim();
       if (!name || name.length < 3) return [];
@@ -41,25 +43,17 @@ async function extractListings(page) {
       const href = nameEl?.getAttribute('href') || '';
       const sourceUrl = href ? `https://panoramafirm.pl${href}` : '';
 
-      // Address — the line-clamp-1 paragraph holds the one-line address
-      const addrEl = card.querySelector('p[class*="line-clamp-1"]');
-      const address = addrEl?.textContent.trim() || '';
+      // Address — leaf text nodes containing a postal code pattern
+      const address = Array.from(card.querySelectorAll('p, span, div'))
+        .map((el) => (el.childElementCount === 0 ? el.textContent.trim() : ''))
+        .find((t) => t && /\d{2}-\d{3}/.test(t)) || '';
 
-      // Phone — stored in a tooltip div that's invisible via CSS but present in DOM
+      // Phone — in an invisible tooltip sibling next to the phone link
       let phone = '';
       const phoneLink = card.querySelector('a[data-ga="l-phone"]');
       if (phoneLink) {
-        // The tooltip is a sibling div with class "invisible absolute..."
-        let sibling = phoneLink.nextElementSibling;
-        while (sibling) {
-          if (sibling.className && sibling.className.includes('invisible')) {
-            // The number is in the first span inside the inner div
-            const span = sibling.querySelector('span');
-            if (span) phone = span.textContent.trim();
-            break;
-          }
-          sibling = sibling.nextElementSibling;
-        }
+        const tooltip = phoneLink.nextElementSibling;
+        if (tooltip) phone = tooltip.textContent.trim();
       }
 
       return [{ name, address, phone, sourceUrl }];
@@ -77,6 +71,9 @@ async function scrapeCity(page, city) {
 
     try {
       await page.goto(url, { waitUntil: 'networkidle', timeout: 30000 });
+      if (p === 1 && listings.length === 0) {
+        try { await page.click('button[data-cookiefirst-action="accept"]', { timeout: 3000 }); } catch (_) {}
+      }
       await sleep(DELAY_MS);
 
       const pageListings = await extractListings(page);

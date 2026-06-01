@@ -2655,27 +2655,896 @@
       "address": "ul. Ajschylosa 88, 60-461 Poznań Jeżyce",
       "phone": "603 608 556",
       "sourceUrl": "https://panoramafirm.pl/wielkopolskie,,poznań,jeżyce,ajschylosa,88/madcom_s.c._serwis_drukarek_i_komputerow_mikolaj_krawiec_marcel_palacz-zsowiu_fnd.html"
-    },
+    }
+  ],
+  "katowice": [
     {
-      "id": 51,
-      "name": "Martyna Krawiec \"Cafe Dylemat\"",
-      "address": "ul. Górnicza 2/225, 60-107 Poznań Grunwald",
-      "phone": "502 276 393",
-      "sourceUrl": "https://panoramafirm.pl/wielkopolskie,,poznań,grunwald,górnicza,2_225/martyna_krawiec_cafe_dylemat-anojon_sjj.html"
-    },
-    {
-      "id": 52,
-      "name": "\"Nefretete\" Zakład Kosmetyczny Monika Krawiec",
-      "address": "ul. Dąbrowskiego 88, 60-576 Poznań Jeżyce",
-      "phone": "602 423 483",
-      "sourceUrl": "https://panoramafirm.pl/wielkopolskie,,poznań,jeżyce,dąbrowskiego,88/nefretete_zaklad_kosmetyczny_monika_krawiec-kriwy_rj.html"
-    },
-    {
-      "id": 53,
-      "name": "Robert Krawiec",
-      "address": "ul. Starołęcka 7, 61-361 Poznań Nowe Miasto",
+      "id": 1,
+      "name": "\"Anna\" Salon Usług Krawieckich Anna Bałdyga",
+      "address": "ul. Le Ronda 85, 40-302 Katowice",
       "phone": "",
-      "sourceUrl": "https://panoramafirm.pl/wielkopolskie,,poznań,nowe_miasto,starołęcka,7/robert_krawiec-zjstpz_aug.html"
+      "sourceUrl": "https://panoramafirm.pl/śląskie,,katowice,le_ronda,85/anna_salon_uslug_krawieckich_anna_baldyga-ziftfh_hth.html"
+    },
+    {
+      "id": 2,
+      "name": "\"Babstyl\" Usługi Krawiectwo Barbara Furgała",
+      "address": "ul. Kijowska 49, 40-753 Katowice",
+      "phone": "508 368 241",
+      "sourceUrl": "https://panoramafirm.pl/śląskie,,katowice,kijowska,49/babstyl_uslugi_krawiectwo_barbara_furgala-afmemm_hth.html"
+    },
+    {
+      "id": 3,
+      "name": "Danuta Adamska",
+      "address": "ul. Gallusa 16b lok. 33, 40-594 Katowice",
+      "phone": "604 698 072",
+      "sourceUrl": "https://panoramafirm.pl/śląskie,,katowice,gallusa,16b_lok._33/danuta_adamska-kjljl_hth.html"
+    },
+    {
+      "id": 4,
+      "name": "\"Igiełka\" Usługi Krawieckie Anna Słomczyńska",
+      "address": "ul. Gdańska 16, 40-719 Katowice",
+      "phone": "505 302 570",
+      "sourceUrl": "https://panoramafirm.pl/śląskie,,katowice,gdańska,16/igielka_uslugi_krawieckie_anna_slomczynska-zeghdt_hth.html"
+    },
+    {
+      "id": 5,
+      "name": "Joanna Olszyńska Zakład Krawiecki Igiełka",
+      "address": "ul. Adama 38, 40-467 Katowice",
+      "phone": "504 650 439",
+      "sourceUrl": "https://panoramafirm.pl/śląskie,,katowice,adama,38/joanna_olszynska_zaklad_krawiecki_igielka-znfgjb_hth.html"
+    },
+    {
+      "id": 6,
+      "name": "Kowalski Eugeniusz Pracownia Krawiecka",
+      "address": "ul. Sandomierska 17, 40-216 Katowice",
+      "phone": "667 288 821",
+      "sourceUrl": "https://panoramafirm.pl/śląskie,,katowice,sandomierska,17/kowalski_eugeniusz_pracownia_krawiecka-ahuoke_hth.html"
+    },
+    {
+      "id": 7,
+      "name": "Martin Piano Marcin Kusek",
+      "address": "ul. Smugowa 39c (1), 40-750 Katowice",
+      "phone": "601 584 533",
+      "sourceUrl": "https://panoramafirm.pl/śląskie,,katowice,smugowa,39c_(1)/martin_piano_marcin_kusek-sjfuj_hth.html"
+    },
+    {
+      "id": 8,
+      "name": "\"Naparstek\" Usługi Krawieckie Ewa Borówka",
+      "address": "ul. Stefana Batorego 6, 40-061 Katowice",
+      "phone": "513 769 207",
+      "sourceUrl": "https://panoramafirm.pl/śląskie,,katowice,stefana_batorego,6/naparstek_uslugi_krawieckie_ewa_borowka-ztspyi_hth.html"
+    },
+    {
+      "id": 9,
+      "name": "Pogotowie Krawieckie",
+      "address": "ul. Panewnicka 79, 40-761 Katowice",
+      "phone": "(32) 202 47 68",
+      "sourceUrl": "https://panoramafirm.pl/śląskie,,katowice,panewnicka,79/pogotowie_krawieckie-odxthi_hth.html"
+    },
+    {
+      "id": 10,
+      "name": "PPUH Butik Bożena Margasińska",
+      "address": "ul. Graniczna 57c, 40-018 Katowice",
+      "phone": "",
+      "sourceUrl": "https://panoramafirm.pl/śląskie,,katowice,graniczna,57c/ppuh_butik_bozena_margasinska-zlyzwh_hth.html"
+    },
+    {
+      "id": 11,
+      "name": "Presnal Kazimiera Usługi Krawieckie",
+      "address": "ul. Graniczna 49a, 40-018 Katowice",
+      "phone": "601 596 449",
+      "sourceUrl": "https://panoramafirm.pl/śląskie,,katowice,graniczna,49a/presnal_kazimiera_uslugi_krawieckie-mjdha_hth.html"
+    },
+    {
+      "id": 12,
+      "name": "Przydacz Małgorzata Pracownia Krawiecka",
+      "address": "ul. Chromika 9 /2 a, 40-238 Katowice",
+      "phone": "605 134 523",
+      "sourceUrl": "https://panoramafirm.pl/śląskie,,katowice,chromika,9_2_a/przydacz_malgorzata_pracownia_krawiecka-afmybz_hth.html"
+    },
+    {
+      "id": 13,
+      "name": "Salonik Krawiecki Anna Karuga",
+      "address": "ul. Piotrowicka 39, 40-723 Katowice",
+      "phone": "",
+      "sourceUrl": "https://panoramafirm.pl/śląskie,,katowice,piotrowicka,39/salonik_krawiecki_anna_karuga-baexoe_hth.html"
+    },
+    {
+      "id": 14,
+      "name": "\"Sandra\" Usługi Krawieckie Katarzyna Adamowicz",
+      "address": "ul. Witosa 17, 40-832 Katowice",
+      "phone": "604 339 645",
+      "sourceUrl": "https://panoramafirm.pl/śląskie,,katowice,witosa,17/sandra_uslugi_krawieckie_katarzyna_adamowicz-sbygs_hth.html"
+    },
+    {
+      "id": 15,
+      "name": "\"Szpilka\" Pracownia Krawiecka Elżbieta Kołodziej",
+      "address": "ul. Pomorska 10, 40-732 Katowice",
+      "phone": "",
+      "sourceUrl": "https://panoramafirm.pl/śląskie,,katowice,pomorska,10/szpilka_pracownia_krawiecka_elzbieta_kolodziej-zxgfyw_hth.html"
+    },
+    {
+      "id": 16,
+      "name": "Usługi Krawieckie Ewa Liebig",
+      "address": "ul. Tysiąclecia 86A, 40-871 Katowice",
+      "phone": "",
+      "sourceUrl": "https://panoramafirm.pl/śląskie,,katowice,tysiąclecia,86a/uslugi_krawieckie_ewa_liebig-zyujuy_hth.html"
+    },
+    {
+      "id": 17,
+      "name": "Zakład Usługowy \"Gala\" Hafciarsko-Krawiecki Krystian Brauhoff",
+      "address": "ul. Zabrska 11, 40-083 Katowice",
+      "phone": "(32) 253 86 10",
+      "sourceUrl": "https://panoramafirm.pl/śląskie,,katowice,zabrska,11/zaklad_uslugowy_gala_hafciarsko_krawiecki_krystian_brauhoff-nhgdd_hth.html"
+    },
+    {
+      "id": 18,
+      "name": "Krawiec Krystyna Lekarz Medycyny Rodzinnej",
+      "address": "ul. Daszyńskiego 19 m. 2, 40-834 Katowice",
+      "phone": "(32) 353 68 15",
+      "sourceUrl": "https://panoramafirm.pl/śląskie,,katowice,daszyńskiego,19_m._2/krawiec_krystyna_lekarz_medycyny_rodzinnej-uapfm_fu.html"
+    },
+    {
+      "id": 19,
+      "name": "Natalia Krawiec Gabinet Psychologiczny Vita Mea",
+      "address": "ul. Francuska 13 lok. 8, 40-026 Katowice",
+      "phone": "",
+      "sourceUrl": "https://panoramafirm.pl/śląskie,,katowice,francuska,13_lok._8/natalia_krawiec_gabinet_psychologiczny_vita_mea-bozhpo_gm.html"
+    },
+    {
+      "id": 20,
+      "name": "Produkcja i Sprzedaż Pieczarek Krzysztof Krawiec",
+      "address": "ul. Chabrowa 14, 40-748 Katowice",
+      "phone": "502 156 697",
+      "sourceUrl": "https://panoramafirm.pl/śląskie,,katowice,chabrowa,14/produkcja_i_sprzedaz_pieczarek_krzysztof_krawiec-afwzbt_spp.html"
+    },
+    {
+      "id": 21,
+      "name": "Specjalistyczna Praktyka Lekarska Dagmara Urbańska-Krawiec",
+      "address": "40-748 Katowice",
+      "phone": "",
+      "sourceUrl": "https://panoramafirm.pl/śląskie,,katowice/specjalistyczna_praktyka_lekarska_dagmara_urbanska_krawiec-zekbda_ss.html"
+    },
+    {
+      "id": 22,
+      "name": "Specjalistyczna Praktyka Lekarska Maciej Krawiec",
+      "address": "ul. Pomorskiego 35b, 40-748 Katowice",
+      "phone": "",
+      "sourceUrl": "https://panoramafirm.pl/śląskie,,katowice,pomorskiego,35b/specjalistyczna_praktyka_lekarska_maciej_krawiec-oefpun_ss.html"
+    },
+    {
+      "id": 23,
+      "name": "Tailor Your Business - Aleksandra Krawiec",
+      "address": "ul. Gdańska 20 lok. 56, 40-719 Katowice",
+      "phone": "",
+      "sourceUrl": "https://panoramafirm.pl/śląskie,,katowice,gdańska,20_lok._56/tailor_your_business_aleksandra_krawiec-boypee_jac.html"
+    },
+    {
+      "id": 24,
+      "name": "Sylwia Tomala Firma handlowo usługowa",
+      "address": "ul. Górnicza 14, 43-251 Pawłowice",
+      "phone": "609 502 753",
+      "sourceUrl": "https://panoramafirm.pl/śląskie,pszczyński,pawłowice,górnicza,14/sylwia_tomala_firma_handlowo_uslugowa-sfunzc_hth.html"
+    },
+    {
+      "id": 25,
+      "name": "Komenda Edyta Firma Phu Usługi Krawieckie Edyta",
+      "address": "ul. Mieszka I 4, 42-500 Będzin",
+      "phone": "662 088 821",
+      "sourceUrl": "https://panoramafirm.pl/śląskie,będziński,będzin,mieszka_i,4/komenda_edyta_firma_phu_uslugi_krawieckie_edyta-sgtdpm_hth.html"
+    }
+  ],
+  "lublin": [
+    {
+      "id": 1,
+      "name": "\"A Do z\" Naprawa Odzieży od Grażyna Siwek",
+      "address": "ul. Brzoskwiniowa 7, 20-142 Lublin",
+      "phone": "511 944 257",
+      "sourceUrl": "https://panoramafirm.pl/lubelskie,,lublin,brzoskwiniowa,7/a_do_z_naprawa_odziezy_od_grazyna_siwek-zbujzn_hth.html"
+    },
+    {
+      "id": 2,
+      "name": "\"Ale Igła\" PHU Anna Siekierzyńska",
+      "address": "ul. Lotnicza 8 lok. 2, 20-322 Lublin",
+      "phone": "",
+      "sourceUrl": "https://panoramafirm.pl/lubelskie,,lublin,lotnicza,8_lok._2/ale_igla_phu_anna_siekierzynska-zjpprf_hth.html"
+    },
+    {
+      "id": 3,
+      "name": "Chłopek Tadeusz Pracownia Krawiecka",
+      "address": "ul. Żulińskiego 12, 20-706 Lublin",
+      "phone": "(81) 524 03 48",
+      "sourceUrl": "https://panoramafirm.pl/lubelskie,,lublin,żulińskiego,12/chlopek_tadeusz_pracownia_krawiecka-nirrh_hth.html"
+    },
+    {
+      "id": 4,
+      "name": "\"Domino\" Pracownia Krawiecka Agnieszka Dębowczyk",
+      "address": "ul. Baśniowa 8/2A, 20-807 Lublin",
+      "phone": "509 579 679",
+      "sourceUrl": "https://panoramafirm.pl/lubelskie,,lublin,baśniowa,8_2a/domino_pracownia_krawiecka_agnieszka_debowczyk-tjzsx_hth.html"
+    },
+    {
+      "id": 5,
+      "name": "\"Dora\" Pracownia Krawiecka Teodora Wac",
+      "address": "ul. Choiny 21, 20-816 Lublin",
+      "phone": "512 744 034",
+      "sourceUrl": "https://panoramafirm.pl/lubelskie,,lublin,choiny,21/dora_pracownia_krawiecka_teodora_wac-afnzaz_hth.html"
+    },
+    {
+      "id": 6,
+      "name": "Efir Marzena Studio Krawieckie",
+      "address": "ul. Droga Męczenników Majdanka 55, 20-325 Lublin",
+      "phone": "513 043 055",
+      "sourceUrl": "https://panoramafirm.pl/lubelskie,,lublin,droga_męczenników_majdanka,55/efir_marzena_studio_krawieckie-afnate_hth.html"
+    },
+    {
+      "id": 7,
+      "name": "Fantazja Na Miarę Elżbieta Pielak",
+      "address": "ul. Koncertowa 19k, 20-866 Lublin",
+      "phone": "",
+      "sourceUrl": "https://panoramafirm.pl/lubelskie,,lublin,koncertowa,19k/fantazja_na_miare_elzbieta_pielak-ztyagh_hth.html"
+    },
+    {
+      "id": 8,
+      "name": "Kawczyńska-Małek Katarzyna Zakład Krawiecki",
+      "address": "al. Spółdzielczości Pracy 34, 20-147 Lublin",
+      "phone": "508 345 449",
+      "sourceUrl": "https://panoramafirm.pl/lubelskie,,lublin,al._spółdzielczości_pracy,34/kawczynska_malek_katarzyna_zaklad_krawiecki-azbott_hth.html"
+    },
+    {
+      "id": 9,
+      "name": "Koza Halina Usługi Krawieckie",
+      "address": "ul. Wyżynna 8, 20-560 Lublin",
+      "phone": "603 538 510",
+      "sourceUrl": "https://panoramafirm.pl/lubelskie,,lublin,wyżynna,8/koza_halina_uslugi_krawieckie-ayropi_hth.html"
+    },
+    {
+      "id": 10,
+      "name": "Krawiectwo Grażyna Wałachowska",
+      "address": "ul. Zielona 3, 20-018 Lublin",
+      "phone": "",
+      "sourceUrl": "https://panoramafirm.pl/lubelskie,,lublin,zielona,3/krawiectwo_grazyna_walachowska-zphbsx_hth.html"
+    },
+    {
+      "id": 11,
+      "name": "Kreatywna Krawcowa Ewa Bajos",
+      "address": "ul. Chodźki 35A, 20-835 Lublin",
+      "phone": "",
+      "sourceUrl": "https://panoramafirm.pl/lubelskie,,lublin,chodźki,35a/kreatywna_krawcowa_ewa_bajos-zdhaxw_hth.html"
+    },
+    {
+      "id": 12,
+      "name": "Matyjaszczyk Elżbieta Usługi Krawieckie",
+      "address": "ul. Szmaragdowa 32, 20-570 Lublin",
+      "phone": "(81) 526 63 30",
+      "sourceUrl": "https://panoramafirm.pl/lubelskie,,lublin,szmaragdowa,32/matyjaszczyk_elzbieta_uslugi_krawieckie-aoygbp_hth.html"
+    },
+    {
+      "id": 13,
+      "name": "Monika Pasek Usługi Krawieckie \"Centymetr\"",
+      "address": "ul. Kiepury 5a, 20-838 Lublin",
+      "phone": "",
+      "sourceUrl": "https://panoramafirm.pl/lubelskie,,lublin,kiepury,5a/monika_pasek_uslugi_krawieckie_centymetr-ayreyt_hth.html"
+    },
+    {
+      "id": 14,
+      "name": "\"Naparstek\" Handel-Krawiectwo Urszula Biała",
+      "address": "ul. Różana 8 lok. 6a, 20-538 Lublin",
+      "phone": "(81) 527 31 55",
+      "sourceUrl": "https://panoramafirm.pl/lubelskie,,lublin,różana,8_lok._6a/naparstek_handel_krawiectwo_urszula_biala-znzrjg_hth.html"
+    },
+    {
+      "id": 15,
+      "name": "Paweł Kisiel",
+      "address": "ul. Zalewskiego 5 lok. 23, 20-492 Lublin",
+      "phone": "",
+      "sourceUrl": "https://panoramafirm.pl/lubelskie,,lublin,zalewskiego,5_lok._23/pawel_kisiel-zxuooy_hth.html"
+    },
+    {
+      "id": 16,
+      "name": "Punkt Usługowo-Handlowy Toto Edyta Niedzielska",
+      "address": "ul. Przyjaźni 38, 20-314 Lublin",
+      "phone": "502 811 189",
+      "sourceUrl": "https://panoramafirm.pl/lubelskie,,lublin,przyjaźni,38/punkt_uslugowo_handlowy_toto_edyta_niedzielska-zblalh_hth.html"
+    },
+    {
+      "id": 17,
+      "name": "\"Sawa\" Grażyna Kowalik",
+      "address": "ul. Ustronie 2a, 20-135 Lublin",
+      "phone": "(81) 747 44 71",
+      "sourceUrl": "https://panoramafirm.pl/lubelskie,,lublin,ustronie,2a/sawa_grazyna_kowalik-afnaaz_hth.html"
+    },
+    {
+      "id": 18,
+      "name": "Usługi Krawieckie Mariola Kostrzewska",
+      "address": "ul. Kleeberga 10 m. 64, 20-243 Lublin",
+      "phone": "(81) 747 58 53",
+      "sourceUrl": "https://panoramafirm.pl/lubelskie,,lublin,kleeberga,10_m._64/uslugi_krawieckie_mariola_kostrzewska-oyzxsk_hth.html"
+    },
+    {
+      "id": 19,
+      "name": "Usługi Krawieckie Teresa Maruszak",
+      "address": "ul. Wyżynna 10/1, 20-560 Lublin",
+      "phone": "500 128 369",
+      "sourceUrl": "https://panoramafirm.pl/lubelskie,,lublin,wyżynna,10_1/uslugi_krawieckie_teresa_maruszak-zlesou_hth.html"
+    },
+    {
+      "id": 20,
+      "name": "Usługi Krawieckie-Elżbieta Stelmaszek",
+      "address": "ul. Różana 9, 20-538 Lublin",
+      "phone": "",
+      "sourceUrl": "https://panoramafirm.pl/lubelskie,,lublin,różana,9/uslugi_krawieckie_elzbieta_stelmaszek-awwbhh_hth.html"
+    },
+    {
+      "id": 21,
+      "name": "Wilczek Renata Krawiectwo",
+      "address": "ul. Przyjaźni 9a, 20-314 Lublin",
+      "phone": "691 739 877",
+      "sourceUrl": "https://panoramafirm.pl/lubelskie,,lublin,przyjaźni,9a/wilczek_renata_krawiectwo-odbdlm_hth.html"
+    },
+    {
+      "id": 22,
+      "name": "Zakład Naprawy Organów Kościelnych Andrzej Madej",
+      "address": "ul. Legionowa 21 lok. 28, 20-053 Lublin",
+      "phone": "",
+      "sourceUrl": "https://panoramafirm.pl/lubelskie,,lublin,legionowa,21_lok._28/zaklad_naprawy_organow_koscielnych_andrzej_madej-aeatjx_hth.html"
+    },
+    {
+      "id": 23,
+      "name": "Zakład Usługowy Cezary Matysiak",
+      "address": "ul. Turkusowa 4, 20-572 Lublin",
+      "phone": "",
+      "sourceUrl": "https://panoramafirm.pl/lubelskie,,lublin,turkusowa,4/zaklad_uslugowy_cezary_matysiak-auzfaa_hth.html"
+    },
+    {
+      "id": 24,
+      "name": "11studio Joanna Krawiec",
+      "address": "ul. Spadochroniarzy 5D lok. 11, 20-043 Lublin",
+      "phone": "",
+      "sourceUrl": "https://panoramafirm.pl/lubelskie,,lublin,spadochroniarzy,5d_lok._11/11studio_joanna_krawiec-znufhh_hdw.html"
+    },
+    {
+      "id": 25,
+      "name": "Patryk Krawiec",
+      "address": "ul. Spokojna 2, 20-074 Lublin",
+      "phone": "",
+      "sourceUrl": "https://panoramafirm.pl/lubelskie,,lublin,spokojna,2/patryk_krawiec-bohtri_fph.html"
+    },
+    {
+      "id": 26,
+      "name": "Paweł Krawiec",
+      "address": "ul. Jantarowa 5 lok. 33, 20-582 Lublin",
+      "phone": "",
+      "sourceUrl": "https://panoramafirm.pl/lubelskie,,lublin,jantarowa,5_lok._33/pawel_krawiec-zddoha_fph.html"
+    }
+  ],
+  "szczecin": [
+    {
+      "id": 1,
+      "name": "Usługi Krawieckie - Butterfly Nataliia Erdman",
+      "address": "ul. Jagiellońska 3, 70-435 Szczecin",
+      "phone": "575 007 510",
+      "sourceUrl": "https://panoramafirm.pl/zachodniopomorskie,,szczecin,jagiellońska,3/uslugi_krawieckie_butterfly_nataliia_erdman-shobuc_hth.html"
+    },
+    {
+      "id": 2,
+      "name": "Basi Barbara Grzelak",
+      "address": "al. Powstańców Wielkopolskich 51c, 70-130 Szczecin",
+      "phone": "510 144 132",
+      "sourceUrl": "https://panoramafirm.pl/zachodniopomorskie,,szczecin,al._powstańców_wielkopolskich,51c/basi_barbara_grzelak-zaanab_hth.html"
+    },
+    {
+      "id": 3,
+      "name": "Brytoń Zofia Usługowy Zakład Krawiecki",
+      "address": "ul. Nałkowskiej 13, 70-785 Szczecin",
+      "phone": "(91) 463 27 33",
+      "sourceUrl": "https://panoramafirm.pl/zachodniopomorskie,,szczecin,nałkowskiej,13/bryton_zofia_uslugowy_zaklad_krawiecki-oylbdy_hth.html"
+    },
+    {
+      "id": 4,
+      "name": "Dorota Salmanowicz",
+      "address": "ul. Magnoliowa 10, 70-885 Szczecin",
+      "phone": "",
+      "sourceUrl": "https://panoramafirm.pl/zachodniopomorskie,,szczecin,magnoliowa,10/dorota_salmanowicz-zlzupe_hth.html"
+    },
+    {
+      "id": 5,
+      "name": "Elżbieta Wolniak Elizabeth-Style",
+      "address": "ul. Rydla 21 lok. 1, 70-783 Szczecin",
+      "phone": "668 181 828",
+      "sourceUrl": "https://panoramafirm.pl/zachodniopomorskie,,szczecin,rydla,21_lok._1/elzbieta_wolniak_elizabeth_style-akeiza_hth.html"
+    },
+    {
+      "id": 6,
+      "name": "Grace Usługi Krawieckie Grażyna Sudoł",
+      "address": "ul. Przyjaciół Żołnierza 2/48, 71-670 Szczecin",
+      "phone": "509 990 860",
+      "sourceUrl": "https://panoramafirm.pl/zachodniopomorskie,,szczecin,przyjaciół_żołnierza,2_48/grace_uslugi_krawieckie_grazyna_sudol-zddoyb_hth.html"
+    },
+    {
+      "id": 7,
+      "name": "\"Gracja\" Pracownia Krawiectwa Damskiego Alicja Wołyniec",
+      "address": "ul. Jarogniewa 3, 71-664 Szczecin",
+      "phone": "(91) 442 48 45",
+      "sourceUrl": "https://panoramafirm.pl/zachodniopomorskie,,szczecin,jarogniewa,3/gracja_pracownia_krawiectwa_damskiego_alicja_wolyniec-kkofc_hth.html"
+    },
+    {
+      "id": 8,
+      "name": "\"Iksde\" Anna Wierszycka",
+      "address": "ul. Chopina 27, 71-450 Szczecin",
+      "phone": "",
+      "sourceUrl": "https://panoramafirm.pl/zachodniopomorskie,,szczecin,chopina,27/iksde_anna_wierszycka-zkfhkz_hth.html"
+    },
+    {
+      "id": 9,
+      "name": "Ireneusz Leciejewski",
+      "address": "ul. Tarpanowa 30 lok. 10, 70-796 Szczecin",
+      "phone": "",
+      "sourceUrl": "https://panoramafirm.pl/zachodniopomorskie,,szczecin,tarpanowa,30_lok._10/ireneusz_leciejewski-zigzgo_hth.html"
+    },
+    {
+      "id": 10,
+      "name": "\"Łatka\" Pogotowie Krawieckie Aneta Szczepkowska",
+      "address": "św. Marcina 2, 71-544 Szczecin",
+      "phone": "",
+      "sourceUrl": "https://panoramafirm.pl/zachodniopomorskie,,szczecin,św._marcina,2/latka_pogotowie_krawieckie_aneta_szczepkowska-zjyaub_hth.html"
+    },
+    {
+      "id": 11,
+      "name": "Łopato Elżbieta Zakład Krawiecki",
+      "address": "ul. Anny Walentynowicz 1c, 71-294 Szczecin",
+      "phone": "504 728 492",
+      "sourceUrl": "https://panoramafirm.pl/zachodniopomorskie,,szczecin,anny_walentynowicz,1c/lopato_elzbieta_zaklad_krawiecki-znpibj_hth.html"
+    },
+    {
+      "id": 12,
+      "name": "Maria Stolarczyk",
+      "address": "ul. Bolesława Krzywoustego 21, 70-314 Szczecin",
+      "phone": "535 650 505",
+      "sourceUrl": "https://panoramafirm.pl/zachodniopomorskie,,szczecin,bolesława_krzywoustego,21/maria_stolarczyk-zwfexh_hth.html"
+    },
+    {
+      "id": 13,
+      "name": "Mariusz Mądrawski",
+      "address": "ul. Rugiańska 15 lok. 63, 71-653 Szczecin",
+      "phone": "501 147 379",
+      "sourceUrl": "https://panoramafirm.pl/zachodniopomorskie,,szczecin,rugiańska,15_lok._63/mariusz_madrawski-zknxau_hth.html"
+    },
+    {
+      "id": 14,
+      "name": "M.G. Grusza Serwis Michał Gruszczyński",
+      "address": "ul. Jagiellońska 72 lok. 6, 70-365 Szczecin",
+      "phone": "",
+      "sourceUrl": "https://panoramafirm.pl/zachodniopomorskie,,szczecin,jagiellońska,72_lok._6/m.g._grusza_serwis_michal_gruszczynski-znxahe_hth.html"
+    },
+    {
+      "id": 15,
+      "name": "Napieraj Hanna Firma Usługowa",
+      "address": "ul. Bolesława Krzywoustego 17 /4, 70-252 Szczecin",
+      "phone": "(91) 433 93 26",
+      "sourceUrl": "https://panoramafirm.pl/zachodniopomorskie,,szczecin,bolesława_krzywoustego,17_4/napieraj_hanna_firma_uslugowa-migee_hth.html"
+    },
+    {
+      "id": 16,
+      "name": "\"Nicolett\" Producent Odzieży Małgorzata Nicolaos",
+      "address": "ul. Jana Kazimierza 1, 71-620 Szczecin",
+      "phone": "504 074 852",
+      "sourceUrl": "https://panoramafirm.pl/zachodniopomorskie,,szczecin,jana_kazimierza,1/nicolett_producent_odziezy_malgorzata_nicolaos-pebfs_hth.html"
+    },
+    {
+      "id": 17,
+      "name": "Pandora Joanna Kołodziejczyk",
+      "address": "ul. Kopernika 5 lok. 8, 70-241 Szczecin",
+      "phone": "502 073 374",
+      "sourceUrl": "https://panoramafirm.pl/zachodniopomorskie,,szczecin,kopernika,5_lok._8/pandora_joanna_kolodziejczyk-aecayy_hth.html"
+    },
+    {
+      "id": 18,
+      "name": "Piotr Kuśmierek Komis Oraz Renowacja Instrumentów Muzycznych-Instrumentarium",
+      "address": "ul. Janickiego 33, 71-270 Szczecin",
+      "phone": "",
+      "sourceUrl": "https://panoramafirm.pl/zachodniopomorskie,,szczecin,janickiego,33/piotr_kusmierek_komis_oraz_renowacja_instrumentow_muzycznych_instrumentarium-bzcxte_hth.html"
+    },
+    {
+      "id": 19,
+      "name": "Pogotowie Krawieckie Jolanta Teresa Górowska",
+      "address": "ul. Młodzieży Polskiej 26b, 70-774 Szczecin",
+      "phone": "",
+      "sourceUrl": "https://panoramafirm.pl/zachodniopomorskie,,szczecin,młodzieży_polskiej,26b/pogotowie_krawieckie_jolanta_teresa_gorowska-zsycxg_hth.html"
+    },
+    {
+      "id": 20,
+      "name": "Pracownia Krawiecka U Anny Anna Wachcińska",
+      "address": "ul. Traugutta 90, 71-300 Szczecin",
+      "phone": "602 587 281",
+      "sourceUrl": "https://panoramafirm.pl/zachodniopomorskie,,szczecin,traugutta,90/pracownia_krawiecka_u_anny_anna_wachcinska-aiufak_hth.html"
+    },
+    {
+      "id": 21,
+      "name": "Renata Mazurek",
+      "address": "ul. Piłsudskiego 1a, 70-420 Szczecin",
+      "phone": "606 797 218",
+      "sourceUrl": "https://panoramafirm.pl/zachodniopomorskie,,szczecin,piłsudskiego,1a/renata_mazurek-acicai_hth.html"
+    },
+    {
+      "id": 22,
+      "name": "Ryszard Jaczno",
+      "address": "ul. Mickiewicza, 71-260 Szczecin",
+      "phone": "",
+      "sourceUrl": "https://panoramafirm.pl/zachodniopomorskie,,szczecin,mickiewicza/ryszard_jaczno-phakc_hth.html"
+    },
+    {
+      "id": 23,
+      "name": "\"Szpuleczka\" Usługi Krawieckie Małgorzata Partyka",
+      "address": "ul. Mazurska 44 lok. 6, 70-416 Szczecin",
+      "phone": "",
+      "sourceUrl": "https://panoramafirm.pl/zachodniopomorskie,,szczecin,mazurska,44_lok._6/szpuleczka_uslugi_krawieckie_malgorzata_partyka-zwojrc_hth.html"
+    },
+    {
+      "id": 24,
+      "name": "Usługi Krawieckie - Renata Dombek",
+      "address": "ul. Staszica 1, 71-515 Szczecin",
+      "phone": "502 100 456",
+      "sourceUrl": "https://panoramafirm.pl/zachodniopomorskie,,szczecin,staszica,1/uslugi_krawieckie_renata_dombek-zmtmoy_hth.html"
+    },
+    {
+      "id": 25,
+      "name": "Usługi Krawieckie Aneri - Irena Strzelczyk",
+      "address": "ul. Narutowicza 13e lok. 8b, 70-240 Szczecin",
+      "phone": "",
+      "sourceUrl": "https://panoramafirm.pl/zachodniopomorskie,,szczecin,narutowicza,13e_lok._8b/uslugi_krawieckie_aneri_irena_strzelczyk-zpbmft_hth.html"
+    },
+    {
+      "id": 26,
+      "name": "Usługi Krawieckie Anna Sobczak",
+      "address": "ul. Mieszka I 103, 70-106 Szczecin",
+      "phone": "784 184 283",
+      "sourceUrl": "https://panoramafirm.pl/zachodniopomorskie,,szczecin,mieszka_i,103/uslugi_krawieckie_anna_sobczak-atuhug_hth.html"
+    },
+    {
+      "id": 27,
+      "name": "Usługi Krawieckie Dorota Woźniak",
+      "address": "ul. Parkowa 31, 71-634 Szczecin",
+      "phone": "(91) 421 27 00",
+      "sourceUrl": "https://panoramafirm.pl/zachodniopomorskie,,szczecin,parkowa,31/uslugi_krawieckie_dorota_wozniak-almxgc_hth.html"
+    },
+    {
+      "id": 28,
+      "name": "Usługi Krawieckie Ewa Ewa Smułka",
+      "address": "ul. Jasna 15 lok. 21, 70-777 Szczecin",
+      "phone": "508 381 814",
+      "sourceUrl": "https://panoramafirm.pl/zachodniopomorskie,,szczecin,jasna,15_lok._21/uslugi_krawieckie_ewa_ewa_smulka-oduczn_hth.html"
+    },
+    {
+      "id": 29,
+      "name": "Usługi Krawieckie Hanna Błaszczak",
+      "address": "ul. Staszica lok. 74C, 71-515 Szczecin",
+      "phone": "",
+      "sourceUrl": "https://panoramafirm.pl/zachodniopomorskie,,szczecin,staszica,lok._74c/uslugi_krawieckie_hanna_blaszczak-azxlip_hth.html"
+    },
+    {
+      "id": 30,
+      "name": "Usługi Krawieckie Jolanta Kowalczyk",
+      "address": "ul. Gierczak 32e, 70-825 Szczecin",
+      "phone": "516 270 157",
+      "sourceUrl": "https://panoramafirm.pl/zachodniopomorskie,,szczecin,gierczak,32e/uslugi_krawieckie_jolanta_kowalczyk-apiuks_hth.html"
+    },
+    {
+      "id": 31,
+      "name": "Usługi Krawieckie Ksenia Kołuda",
+      "address": "ul. Struga 31, 70-784 Szczecin",
+      "phone": "",
+      "sourceUrl": "https://panoramafirm.pl/zachodniopomorskie,,szczecin,struga,31/uslugi_krawieckie_ksenia_koluda-barpws_hth.html"
+    },
+    {
+      "id": 32,
+      "name": "Usługi Krawieckie Małgorzata Murawska",
+      "address": "ul. Wyzwolenia 105a lok. U4, 71-899 Szczecin",
+      "phone": "",
+      "sourceUrl": "https://panoramafirm.pl/zachodniopomorskie,,szczecin,wyzwolenia,105a_lok._u4/uslugi_krawieckie_malgorzata_murawska-zybshl_hth.html"
+    },
+    {
+      "id": 33,
+      "name": "Usługi Krawieckie Złota Nić Halyna Saliichuk",
+      "address": "ul. Aleja Niepodległości 22, 70-412 Szczecin",
+      "phone": "",
+      "sourceUrl": "https://panoramafirm.pl/zachodniopomorskie,,szczecin,aleja_niepodległości,22/uslugi_krawieckie_zlota_nic_halyna_saliichuk-bzjxkp_hth.html"
+    },
+    {
+      "id": 34,
+      "name": "Zakład Krawiecki Barbara Tomczyk",
+      "address": "ul. Wojska Polskiego 7, 70-470 Szczecin",
+      "phone": "",
+      "sourceUrl": "https://panoramafirm.pl/zachodniopomorskie,,szczecin,wojska_polskiego,7/zaklad_krawiecki_barbara_tomczyk-zekwmc_hth.html"
+    },
+    {
+      "id": 35,
+      "name": "Zakład Krawiecki Bogusław Staruch",
+      "address": "ul. Bolesława Śmiałego 28, 70-348 Szczecin",
+      "phone": "",
+      "sourceUrl": "https://panoramafirm.pl/zachodniopomorskie,,szczecin,bolesława_śmiałego,28/zaklad_krawiecki_boguslaw_staruch-miger_hth.html"
+    },
+    {
+      "id": 36,
+      "name": "Zofia Stafin Pracownia Krawiecka \"Sofija\"",
+      "address": "ul. Drukarska 12, 70-831 Szczecin",
+      "phone": "",
+      "sourceUrl": "https://panoramafirm.pl/zachodniopomorskie,,szczecin,drukarska,12/zofia_stafin_pracownia_krawiecka_sofija-zknmpk_hth.html"
+    },
+    {
+      "id": 37,
+      "name": "4 Ściany Agnieszka Krawiec",
+      "address": "ul. Turkusowa 19 lok. 7, 70-778 Szczecin",
+      "phone": "",
+      "sourceUrl": "https://panoramafirm.pl/zachodniopomorskie,,szczecin,turkusowa,19_lok._7/4_sciany_agnieszka_krawiec-zyuehf_jjs.html"
+    },
+    {
+      "id": 38,
+      "name": "Archibaltic Bartosz Krawiec",
+      "address": "ul. Hrubieszowska 55 lok. 4, 71-047 Szczecin",
+      "phone": "691 404 102",
+      "sourceUrl": "https://panoramafirm.pl/zachodniopomorskie,,szczecin,hrubieszowska,55_lok._4/archibaltic_bartosz_krawiec-zignfu_idu.html"
+    },
+    {
+      "id": 39,
+      "name": "Handel i Usługi Katarzyna Krawiec",
+      "address": "ul. Wierzyńskiego 17 lok. 4, 70-786 Szczecin",
+      "phone": "604 460 963",
+      "sourceUrl": "https://panoramafirm.pl/zachodniopomorskie,,szczecin,wierzyńskiego,17_lok._4/handel_i_uslugi_katarzyna_krawiec-aepfxz_aof.html"
+    },
+    {
+      "id": 40,
+      "name": "K4 Projekt Arkadiusz Krawiec",
+      "address": "ul. Bolesława Śmiałego 5 lok. 2, 70-350 Szczecin",
+      "phone": "",
+      "sourceUrl": "https://panoramafirm.pl/zachodniopomorskie,,szczecin,bolesława_śmiałego,5_lok._2/k4_projekt_arkadiusz_krawiec-ztdlnk_suu.html"
+    },
+    {
+      "id": 41,
+      "name": "Kancelaria Notarialna Joanna Krawiec",
+      "address": "ul. Felczaka 17 lok. U3, 71-417 Szczecin",
+      "phone": "503 094 221",
+      "sourceUrl": "https://panoramafirm.pl/zachodniopomorskie,,szczecin,felczaka,17_lok._u3/kancelaria_notarialna_joanna_krawiec-ztbfyo_aud.html"
+    },
+    {
+      "id": 42,
+      "name": "Proxivel Przemysław Krawiec",
+      "address": "ul. Sianokosów 34, 71-212 Szczecin",
+      "phone": "",
+      "sourceUrl": "https://panoramafirm.pl/zachodniopomorskie,,szczecin,sianokosów,34/proxivel_przemyslaw_krawiec-bzcexo_azt.html"
+    },
+    {
+      "id": 43,
+      "name": "Trans Medic Krawiec Wojciech",
+      "address": "ul. Sanatoryjna 14, 70-775 Szczecin",
+      "phone": "505 791 322",
+      "sourceUrl": "https://panoramafirm.pl/zachodniopomorskie,,szczecin,sanatoryjna,14/trans_medic_krawiec_wojciech-aasgfw_aswtt.html"
+    },
+    {
+      "id": 44,
+      "name": "Usługi Rachunkowe Marta Krawiec",
+      "address": "ul. Kopańskiego 62 lok. 7, 71-050 Szczecin",
+      "phone": "609 220 179",
+      "sourceUrl": "https://panoramafirm.pl/zachodniopomorskie,,szczecin,kopańskiego,62_lok._7/uslugi_rachunkowe_marta_krawiec-zlfgwu_and.html"
+    }
+  ],
+  "bydgoszcz": [
+    {
+      "id": 1,
+      "name": "\"Anamoda\" FUH Anna Dyguła",
+      "address": "ul. Gdańska 87, 85-022 Bydgoszcz",
+      "phone": "781 613 805",
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,bydgoszcz,gdańska,87/anamoda_fuh_anna_dygula-zbubre_hth.html"
+    },
+    {
+      "id": 2,
+      "name": "\"G.T.-Bike\" S.C. Grażyna Wiącek Tomasz Czywczyński",
+      "address": "ul. Boya-Żeleńskiego 25, 85-858 Bydgoszcz",
+      "phone": "",
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,bydgoszcz,boya_żeleńskiego,25/g.t._bike_s.c._grazyna_wiacek_tomasz_czywczynski-ajcfkd_hth.html"
+    },
+    {
+      "id": 3,
+      "name": "\"Ilonex\" Przedsiębiorstwo Produkcyjno-Handlowo-Usługowe",
+      "address": "ul. Przejazd 4, 85-468 Bydgoszcz",
+      "phone": "",
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,bydgoszcz,przejazd,4/ilonex_przedsiebiorstwo_produkcyjno_handlowo_uslugowe-oealyc_hth.html"
+    },
+    {
+      "id": 4,
+      "name": "\"Jonex\" PHU Jolanta Nowocień",
+      "address": "ul. Wojska Polskiego 23, 85-825 Bydgoszcz",
+      "phone": "661 970 935",
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,bydgoszcz,wojska_polskiego,23/jonex_phu_jolanta_nowocien-zhbnmk_hth.html"
+    },
+    {
+      "id": 5,
+      "name": "\"Julia\" Andrzej Józef Szumański Profesjonalne Usługi Krawieckie",
+      "address": "ul. Lawinowa 1 l. Paw.178, 85-794 Bydgoszcz",
+      "phone": "502 085 812",
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,bydgoszcz,lawinowa,1_l._paw.178/julia_andrzej_jozef_szumanski_profesjonalne_uslugi_krawieckie-ahxksf_hth.html"
+    },
+    {
+      "id": 6,
+      "name": "Kalina Mróz Projekt Igła i Nożyczki",
+      "address": "ul. Gdańska 10 lok. 8, 85-006 Bydgoszcz",
+      "phone": "730 779 707",
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,bydgoszcz,gdańska,10_lok._8/kalina_mroz_projekt_igla_i_nozyczki-zwytoi_hth.html"
+    },
+    {
+      "id": 7,
+      "name": "Karolina Młodzikowska",
+      "address": "ul. Bałtycka 45, 85-707 Bydgoszcz",
+      "phone": "",
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,bydgoszcz,bałtycka,45/karolina_mlodzikowska-zragab_hth.html"
+    },
+    {
+      "id": 8,
+      "name": "Krawiectwo Dorota Bieńkowska",
+      "address": "ul. Poznańska 2 lok. 4, 85-129 Bydgoszcz",
+      "phone": "",
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,bydgoszcz,poznańska,2_lok._4/krawiectwo_dorota_bienkowska-aoiapz_hth.html"
+    },
+    {
+      "id": 9,
+      "name": "\"Krys\" Usługi Krawieckie Bożena Piątek",
+      "address": "ul. Karpia 5, 85-435 Bydgoszcz",
+      "phone": "608 183 896",
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,bydgoszcz,karpia,5/krys_uslugi_krawieckie_bozena_piatek-oepubb_hth.html"
+    },
+    {
+      "id": 10,
+      "name": "\"Marian\"",
+      "address": "ul. Okrzei 2 lok. 186, 85-317 Bydgoszcz",
+      "phone": "693 992 908",
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,bydgoszcz,okrzei,2_lok._186/marian-zkofzk_hth.html"
+    },
+    {
+      "id": 11,
+      "name": "Matuszczak Ewa Zakład Kuśniersko-Krawiecki",
+      "address": "ul. Marcinkowskiego 10, 85-056 Bydgoszcz",
+      "phone": "(52) 322 14 55",
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,bydgoszcz,marcinkowskiego,10/matuszczak_ewa_zaklad_kusniersko_krawiecki-msbog_hth.html"
+    },
+    {
+      "id": 12,
+      "name": "Modelmaniac Sp. z o.o.",
+      "address": "ul. Spółdzielcza 7 lok. 27, 85-888 Bydgoszcz",
+      "phone": "",
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,bydgoszcz,spółdzielcza,7_lok._27/modelmaniac_sp._z_o.o.-zxekkw_hth.html"
+    },
+    {
+      "id": 13,
+      "name": "PPHU Gabriela Rybicka",
+      "address": "ul. Tomasza Golloba 2a, 85-791 Bydgoszcz",
+      "phone": "796 479 060",
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,bydgoszcz,tomasza_golloba,2a/pphu_gabriela_rybicka-akpnnr_hth.html"
+    },
+    {
+      "id": 14,
+      "name": "Pracownia Krawiecka Igiełka Anna Kawka",
+      "address": "ul. Chodkiewicza 31, 85-667 Bydgoszcz",
+      "phone": "792 873 390",
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,bydgoszcz,chodkiewicza,31/pracownia_krawiecka_igielka_anna_kawka-zwxfny_hth.html"
+    },
+    {
+      "id": 15,
+      "name": "Przedsiębiorstwo WielobranżoweN\" A N D E R S \"",
+      "address": "ul. Nakielska 107A lok. 16, 85-347 Bydgoszcz",
+      "phone": "",
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,bydgoszcz,nakielska,107a_lok._16/przedsiebiorstwo_wielobranzowen_a_n_d_e_r_s-zmxehc_hth.html"
+    },
+    {
+      "id": 16,
+      "name": "\"Rasz\" Zakład Krawiecki Rafał Szymanek",
+      "address": "ul. Pielęgniarska 17, 85-790 Bydgoszcz",
+      "phone": "517 443 884",
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,bydgoszcz,pielęgniarska,17/rasz_zaklad_krawiecki_rafal_szymanek-zyzmco_hth.html"
+    },
+    {
+      "id": 17,
+      "name": "Rasz-Serwis Usługi Krawieckie Alina Szymanek",
+      "address": "ul. Pielęgniarska 17, 85-790 Bydgoszcz",
+      "phone": "505 156 427",
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,bydgoszcz,pielęgniarska,17/rasz_serwis_uslugi_krawieckie_alina_szymanek-zegrlh_hth.html"
+    },
+    {
+      "id": 18,
+      "name": "\"Salvador\" S.C. Przedsiębiorstwo Wielobranżowe Jan Laskowski Wojciech Jan Talkowski",
+      "address": "ul. Chodkiewicza 14 lok. 3, 85-065 Bydgoszcz",
+      "phone": "668 467 162",
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,bydgoszcz,chodkiewicza,14_lok._3/salvador_s.c._przedsiebiorstwo_wielobranzowe_jan_laskowski_wojciech_jan_talkowski-ajcbns_hth.html"
+    },
+    {
+      "id": 19,
+      "name": "\"U Grażyny\" Grażyna Cicha Usługi Krawieckie",
+      "address": "ul. Grunwaldzka 52/1, 85-236 Bydgoszcz",
+      "phone": "",
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,bydgoszcz,grunwaldzka,52_1/u_grazyny_grazyna_cicha_uslugi_krawieckie-zsedmt_hth.html"
+    },
+    {
+      "id": 20,
+      "name": "Usługi Krawieckie Anna Wytrwał",
+      "address": "ul. Gdańska 36, 85-005 Bydgoszcz",
+      "phone": "792 944 853",
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,bydgoszcz,gdańska,36/uslugi_krawieckie_anna_wytrwal-oywuwt_hth.html"
+    },
+    {
+      "id": 21,
+      "name": "Usługi Krawieckie Bożena Twardowska",
+      "address": "ul. Dworcowa 39, 85-009 Bydgoszcz",
+      "phone": "(52) 322 68 95",
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,bydgoszcz,dworcowa,39/uslugi_krawieckie_bozena_twardowska-aaxuei_hth.html"
+    },
+    {
+      "id": 22,
+      "name": "Usługi Krawieckie Janina Maria Mikulska",
+      "address": "ul. Nałkowskiej 5, 85-866 Bydgoszcz",
+      "phone": "",
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,bydgoszcz,nałkowskiej,5/uslugi_krawieckie_janina_maria_mikulska-aiuyse_hth.html"
+    },
+    {
+      "id": 23,
+      "name": "Usługi Krawieckie Joanna Żaneta Sakowska",
+      "address": "ul. Wojska Polskiego 11, 85-858 Bydgoszcz",
+      "phone": "",
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,bydgoszcz,wojska_polskiego,11/uslugi_krawieckie_joanna_zaneta_sakowska-asmofw_hth.html"
+    },
+    {
+      "id": 24,
+      "name": "Usługi Krawieckie Małgorzata Kaźmierczak",
+      "address": "ul. Jagiellońska 39, 85-097 Bydgoszcz",
+      "phone": "603 300 817",
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,bydgoszcz,jagiellońska,39/uslugi_krawieckie_malgorzata_kazmierczak-zowakm_hth.html"
+    },
+    {
+      "id": 25,
+      "name": "Usługi Krawieckie Marzena Forc",
+      "address": "ul. Powstańców Śląskich 9/III, 85-665 Bydgoszcz",
+      "phone": "665 109 419",
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,bydgoszcz,powstańców_śląskich,9_iii/uslugi_krawieckie_marzena_forc-zwnhml_hth.html"
+    },
+    {
+      "id": 26,
+      "name": "\"Weronika\" Przedsiębiorstwo Handlowo-Usługowe",
+      "address": "ul. Górskiego Ochotniczego Pogotowia Ratunkowego 6E, 85-794 Bydgoszcz",
+      "phone": "600 994 584",
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,bydgoszcz,górskiego_ochotniczego_pogotowia_ratunkowego,6e/weronika_przedsiebiorstwo_handlowo_uslugowe-odxlpa_hth.html"
+    },
+    {
+      "id": 27,
+      "name": "Zakład Krawiecki Aneta Sajdak",
+      "address": "ul. Skromna 10, 85-684 Bydgoszcz",
+      "phone": "",
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,bydgoszcz,skromna,10/zaklad_krawiecki_aneta_sajdak-zkofnr_hth.html"
+    },
+    {
+      "id": 28,
+      "name": "Zakład Tapicerski S.C. Jarosław Janik Ireneusz Janik Waldemar Zalewski",
+      "address": "ul. Źródlana 25, 85-444 Bydgoszcz",
+      "phone": "(52) 581 22 79",
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,bydgoszcz,źródlana,25/zaklad_tapicerski_s.c._jaroslaw_janik_ireneusz_janik_waldemar_zalewski-ajccci_hth.html"
+    },
+    {
+      "id": 29,
+      "name": "\"Zameczek\" Pracownia Krawiecka Anna Szmelter",
+      "address": "ul. Czackiego 33, 85-138 Bydgoszcz",
+      "phone": "",
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,bydgoszcz,czackiego,33/zameczek_pracownia_krawiecka_anna_szmelter-zgzjxw_hth.html"
+    },
+    {
+      "id": 30,
+      "name": "Zyg - Zak Ewa Czaplińska",
+      "address": "ul. Przyjazna 11 lok. 13, 85-858 Bydgoszcz",
+      "phone": "",
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,bydgoszcz,przyjazna,11_lok._13/zyg_zak_ewa_czaplinska-zfgcjl_hth.html"
+    },
+    {
+      "id": 31,
+      "name": "Michał Krawiec",
+      "address": "ul. Galla Anonima 1 lok. 16, 85-790 Bydgoszcz",
+      "phone": "",
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,bydgoszcz,galla_anonima,1_lok._16/michal_krawiec-zjjcwb_ch.html"
     }
   ]
 }
