@@ -14,7 +14,7 @@ export async function generateMetadata({ params }) {
   if (!cityData) return {};
   return {
     title: `Krawcy w ${cityData.name} — Znajdź Krawca`,
-    description: `Pracownie krawieckie i krawcy w ${cityData.name}. Znajdź krawca blisko siebie.`,
+    description: cityData.intro.substring(0, 155),
   };
 }
 
@@ -63,6 +63,10 @@ export default async function CityPage({ params }) {
       </header>
 
       <main className="max-w-4xl mx-auto px-4 py-10">
+        <div className="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm mb-8">
+          <p className="text-slate-600 leading-relaxed">{cityData.intro}</p>
+        </div>
+
         {cityTailors.length === 0 ? (
           <p className="text-slate-500 text-center py-16">
             Brak krawców w tym mieście. Wróć wkrótce!
