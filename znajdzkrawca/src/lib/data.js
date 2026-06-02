@@ -41,6 +41,26 @@ export const cities = [
     slug: 'bydgoszcz', name: 'Bydgoszcz', description: 'Miasto nad Brdą i Kanałem Bydgoskim',
     intro: 'Szukasz krawca w Bydgoszczy? W katalogu znajdziesz pracownie krawieckie i krawców z całej Bydgoszczy. Od centrum po Fordon i Wyżyny — sprawdzeni specjaliści od szycia na miarę i przeróbek odzieży.',
   },
+  {
+    slug: 'bialystok', name: 'Białystok', description: 'Stolica Podlasia',
+    intro: 'Szukasz krawca w Białymstoku? Nasz katalog zawiera pracownie krawieckie i krawców z całego Białegostoku. Szycie na miarę, przeróbki i naprawy odzieży w stolicy Podlasia.',
+  },
+  {
+    slug: 'rzeszow', name: 'Rzeszów', description: 'Stolica Podkarpacia',
+    intro: 'Rzeszów to dynamicznie rozwijające się miasto z wieloma sprawdzonymi krawcami. W katalogu znajdziesz pracownie krawieckie z całego Rzeszowa. Profesjonalne szycie na miarę i przeróbki odzieży w stolicy Podkarpacia.',
+  },
+  {
+    slug: 'torun', name: 'Toruń', description: 'Miasto Kopernika nad Wisłą',
+    intro: 'Szukasz krawca w Toruniu? Nasz katalog zawiera krawców i pracownie krawieckie z całego Torunia. Od Starówki po Rubinkowo — znajdź specjalistę od szycia na miarę i przeróbek odzieży.',
+  },
+  {
+    slug: 'kielce', name: 'Kielce', description: 'Stolica Świętokrzyskiego',
+    intro: 'Szukasz krawca w Kielcach? W katalogu znajdziesz pracownie krawieckie i krawców z całych Kielc. Szycie na miarę, przeróbki i naprawy odzieży w sercu województwa świętokrzyskiego.',
+  },
+  {
+    slug: 'czestochowa', name: 'Częstochowa', description: 'Miasto Jasnej Góry',
+    intro: 'Szukasz krawca w Częstochowie? Nasz katalog zawiera sprawdzonych krawców i pracownie krawieckie z całej Częstochowy. Profesjonalne szycie na miarę i przeróbki odzieży w mieście Jasnej Góry.',
+  },
 ];
 
 export const tailors = tailorsData;

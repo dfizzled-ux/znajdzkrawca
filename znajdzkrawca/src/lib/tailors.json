@@ -4491,5 +4491,1239 @@
       "reviewCount": 0,
       "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,bydgoszcz,galla_anonima,1_lok._16/michal_krawiec-zjjcwb_ch.html"
     }
+  ],
+  "bialystok": [
+    {
+      "id": 1,
+      "name": "Usługi krawieckie Nataliya Klimenka",
+      "address": "ul. Mickiewicza 15A, 15-213 Białystok",
+      "phone": "725 250 526",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podlaskie,,białystok,mickiewicza,15a/uslugi_krawieckie_nataliya_klimenka-shhbds_hth.html"
+    },
+    {
+      "id": 2,
+      "name": "Kaash Katarzyna Puciłowska",
+      "address": "ul. Hetmańska 44/205, 15-727 Białystok",
+      "phone": "507 141 275",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podlaskie,,białystok,hetmańska,44_205/kaash_katarzyna_pucilowska-sgmkig_hth.html"
+    },
+    {
+      "id": 3,
+      "name": "Zakład Krawiecki Orjonjo Maryna Sztark",
+      "address": "ul. Warszawska 6, 15-062 Białystok",
+      "phone": "606 637 765",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podlaskie,,białystok,warszawska,6/zaklad_krawiecki_orjonjo_maryna_sztark-shoihx_hth.html"
+    },
+    {
+      "id": 4,
+      "name": "Andrzej Bieryło Zakład Krawiecki",
+      "address": "ul. Legionowa 9/1 lok. 029, 15-099 Białystok",
+      "phone": "(85) 744 33 67",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podlaskie,,białystok,legionowa,9_1_lok._029/andrzej_bierylo_zaklad_krawiecki-aryzlu_hth.html"
+    },
+    {
+      "id": 5,
+      "name": "\"Austin\" Przedsiębiorstwo Produkcyjno-Usługowo-Handlowe Mirosław Kozłowski",
+      "address": "ul. Księdza Jana Twardowskiego 74a, 15-170 Białystok",
+      "phone": "",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podlaskie,,białystok,księdza_jana_twardowskiego,74a/austin_przedsiebiorstwo_produkcyjno_uslugowo_handlowe_miroslaw_kozlowski-abbtrf_hth.html"
+    },
+    {
+      "id": 6,
+      "name": "\"Edama\" Przedsiębiorstwo Produkcyjno-Usługowo-Handlowe Elżbieta Danowska",
+      "address": "ul. Bema 11 lok.75, 15-369 Białystok",
+      "phone": "509 961 388",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podlaskie,,białystok,bema,11_lok.75/edama_przedsiebiorstwo_produkcyjno_uslugowo_handlowe_elzbieta_danowska-aoiwzl_hth.html"
+    },
+    {
+      "id": 7,
+      "name": "\"Emka\" Pracownia Krawiecka Krystyna Mironiuk",
+      "address": "ul. Kręta 8 /1, 15-345 Białystok",
+      "phone": "509 549 124",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podlaskie,,białystok,kręta,8_1/emka_pracownia_krawiecka_krystyna_mironiuk-aieehg_hth.html"
+    },
+    {
+      "id": 8,
+      "name": "Enzo S.C. Formy Odzieżowe Wykroje Krawieckie K. PU Ciłowska A. Murawska",
+      "address": "ul. Hetmańska 44 lok. 205, 15-727 Białystok",
+      "phone": "665 854 111",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podlaskie,,białystok,hetmańska,44_lok._205/enzo_s.c._formy_odziezowe_wykroje_krawieckie_k._pu_cilowska_a._murawska-zhcutn_hth.html"
+    },
+    {
+      "id": 9,
+      "name": "Enzo S.C. K. Puciłowska a. Murawska",
+      "address": "ul. Hetmańska 44 lok. 205, 15-727 Białystok",
+      "phone": "507 141 275",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podlaskie,,białystok,hetmańska,44_lok._205/enzo_s.c._k._pucilowska_a._murawska-akycpf_hth.html"
+    },
+    {
+      "id": 10,
+      "name": "\"Ewa\" Usługi. Pracownia Krawiecka Ewa Dryl",
+      "address": "ul. Pogodna 27B lok. 2, 15-365 Białystok",
+      "phone": "509 973 167",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podlaskie,,białystok,pogodna,27b_lok._2/ewa_uslugi._pracownia_krawiecka_ewa_dryl-zbfdtg_hth.html"
+    },
+    {
+      "id": 11,
+      "name": "Grabowska Teresa Usługi Krawieckie",
+      "address": "św. Rocha 13/15 lok. 122, 15-879 Białystok",
+      "phone": "602 433 989",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podlaskie,,białystok,św._rocha,13_15_lok._122/grabowska_teresa_uslugi_krawieckie-oxweix_hth.html"
+    },
+    {
+      "id": 12,
+      "name": "Mozyrska Anna Ewa Pracownia Krawiecka \"Anna\"",
+      "address": "św. Rocha 14a lok. 14, 15-879 Białystok",
+      "phone": "696 700 044",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podlaskie,,białystok,św._rocha,14a_lok._14/mozyrska_anna_ewa_pracownia_krawiecka_anna-zrjhiw_hth.html"
+    },
+    {
+      "id": 13,
+      "name": "\"Niteczka\" Usługi Krawieckie Joanna Kołodko",
+      "address": "ul. Starobojarska 18, 15-073 Białystok",
+      "phone": "",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podlaskie,,białystok,starobojarska,18/niteczka_uslugi_krawieckie_joanna_kolodko-zzueem_hth.html"
+    },
+    {
+      "id": 14,
+      "name": "Pracownia Krawiecka Elżbieta Antypiuk",
+      "address": "ul. Zwierzyniecka 17, 15-333 Białystok",
+      "phone": "509 797 158",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podlaskie,,białystok,zwierzyniecka,17/pracownia_krawiecka_elzbieta_antypiuk-zluwwp_hth.html"
+    },
+    {
+      "id": 15,
+      "name": "Pracownia Krawiecka Monika Piotr Piekutowski",
+      "address": "ul. Słonecznikowa 25 lok. 5, 15-660 Białystok",
+      "phone": "",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podlaskie,,białystok,słonecznikowa,25_lok._5/pracownia_krawiecka_monika_piotr_piekutowski-bzcupl_hth.html"
+    },
+    {
+      "id": 16,
+      "name": "Projektowanie i Stylizacja Odzieży Elżbieta Piesiecka",
+      "address": "ul. Suraska 1, 15-093 Białystok",
+      "phone": "662 223 403",
+      "rating": 5,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podlaskie,,białystok,suraska,1/projektowanie_i_stylizacja_odziezy_elzbieta_piesiecka-abtilu_hth.html"
+    },
+    {
+      "id": 17,
+      "name": "Prus Tadeusz Zakład Krawiecko-Usługowy",
+      "address": "ul. Świętojańska 6, 15-082 Białystok",
+      "phone": "",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podlaskie,,białystok,świętojańska,6/prus_tadeusz_zaklad_krawiecko_uslugowy-txgcg_hth.html"
+    },
+    {
+      "id": 18,
+      "name": "\"Przeróbki Krawieckie\" Jadwiga Wejda",
+      "address": "ul. Broniewskiego 4 lok. 212, 15-748 Białystok",
+      "phone": "(85) 654 17 38",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podlaskie,,białystok,broniewskiego,4_lok._212/przerobki_krawieckie_jadwiga_wejda-oepuce_hth.html"
+    },
+    {
+      "id": 19,
+      "name": "Przeróbki Krawieckie Marianna Gierasimiuk",
+      "address": "ul. Mickiewicza 65/1, 15-213 Białystok",
+      "phone": "",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podlaskie,,białystok,mickiewicza,65_1/przerobki_krawieckie_marianna_gierasimiuk-zjjopx_hth.html"
+    },
+    {
+      "id": 20,
+      "name": "SZEWOWA Anna Czarniecka",
+      "address": "ul. Słonecznikowa 21 lok. 17, 15-669 Białystok",
+      "phone": "608 121 625",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podlaskie,,białystok,słonecznikowa,21_lok._17/szewowa_anna_czarniecka-zehsjr_hth.html"
+    },
+    {
+      "id": 21,
+      "name": "Świeża Koszula Walentyna Choruża",
+      "address": "ul. Mieszka I 14 lok. 15, 15-054 Białystok",
+      "phone": "",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podlaskie,,białystok,mieszka_i,14_lok._15/swieza_koszula_walentyna_choruza-zwotkn_hth.html"
+    },
+    {
+      "id": 22,
+      "name": "Usługi Krawieckie Anastazja Zamojtuk",
+      "address": "ul. Pułaskiego 29, 15-337 Białystok",
+      "phone": "",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podlaskie,,białystok,pułaskiego,29/uslugi_krawieckie_anastazja_zamojtuk-zuhrtd_hth.html"
+    },
+    {
+      "id": 23,
+      "name": "Usługi Krawieckie Maria Szylko",
+      "address": "ul. Waryńskiego 26 lok. 3, 15-461 Białystok",
+      "phone": "503 557 428",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podlaskie,,białystok,waryńskiego,26_lok._3/uslugi_krawieckie_maria_szylko-znfcoi_hth.html"
+    },
+    {
+      "id": 24,
+      "name": "\"Usługi Krawieckie\" Marta Górska",
+      "address": "ul. Witosa 25 lok. 34, 15-562 Białystok",
+      "phone": "510 260 993",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podlaskie,,białystok,witosa,25_lok._34/uslugi_krawieckie_marta_gorska-oxweiy_hth.html"
+    },
+    {
+      "id": 25,
+      "name": "Usługi Krawieckie Teresa Garbowska",
+      "address": "ul. Upalna 1A lok. 27, 15-668 Białystok",
+      "phone": "798 630 120",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podlaskie,,białystok,upalna,1a_lok._27/uslugi_krawieckie_teresa_garbowska-zlsizw_hth.html"
+    },
+    {
+      "id": 26,
+      "name": "Usługi Krawieckie Twój Styl Lucyna Jeleniewicz",
+      "address": "ul. Upalna 1A lok. 24, 15-668 Białystok",
+      "phone": "696 155 559",
+      "rating": 5,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podlaskie,,białystok,upalna,1a_lok._24/uslugi_krawieckie_twoj_styl_lucyna_jeleniewicz-oylbew_hth.html"
+    },
+    {
+      "id": 27,
+      "name": "Zakład Krawiecki \"Orjonjo\" Maryna Sztark",
+      "address": "ul. Warszawska 6, 15-062 Białystok",
+      "phone": "606 637 765",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podlaskie,,białystok,warszawska,6/zaklad_krawiecki_orjonjo_maryna_sztark-oyzxwj_hth.html"
+    }
+  ],
+  "rzeszow": [
+    {
+      "id": 1,
+      "name": "Beata Charachajczuk Pracownia Krawiecka",
+      "address": "ul. Kościelna 2, 35-505 Rzeszów",
+      "phone": "504 013 079",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podkarpackie,,rzeszów,kościelna,2/beata_charachajczuk_pracownia_krawiecka-zlcrkp_hth.html"
+    },
+    {
+      "id": 2,
+      "name": "Cach Maria Zakład Krawiecki",
+      "address": "ul. Kochanowskiego 21, 35-201 Rzeszów",
+      "phone": "(17) 852 00 41",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podkarpackie,,rzeszów,kochanowskiego,21/cach_maria_zaklad_krawiecki-kgrrp_hth.html"
+    },
+    {
+      "id": 3,
+      "name": "E-Bielik Tomasz Ostrzywilk",
+      "address": "ul. Sondeja 2, 35-011 Rzeszów",
+      "phone": "",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podkarpackie,,rzeszów,sondeja,2/e_bielik_tomasz_ostrzywilk-bzrmtk_hth.html"
+    },
+    {
+      "id": 4,
+      "name": "ES Sitarz Zakład Odzieżowy Stanisław Sitarz Paweł Sitarz Spółka Jawna",
+      "address": "ul. Mazurska 21, 35-620 Rzeszów",
+      "phone": "(17) 852 13 92",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podkarpackie,,rzeszów,mazurska,21/es_sitarz_zaklad_odziezowy_stanislaw_sitarz_pawel_sitarz_spolka_jawna-nzjww_hth.html"
+    },
+    {
+      "id": 5,
+      "name": "\"Fason\" - Przeróbki Krawieckie Buczek Lucyna",
+      "address": "al. Rejtana 53 lok. 17a, 35-326 Rzeszów",
+      "phone": "784 735 280",
+      "rating": 5,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podkarpackie,,rzeszów,al._rejtana,53_lok._17a/fason_przerobki_krawieckie_buczek_lucyna-attdgx_hth.html"
+    },
+    {
+      "id": 6,
+      "name": "\"Finestra\" Aneta Puc",
+      "address": "ul. Mazurska 7 lok. 12, 35-620 Rzeszów",
+      "phone": "798 588 076",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podkarpackie,,rzeszów,mazurska,7_lok._12/finestra_aneta_puc-abuzft_hth.html"
+    },
+    {
+      "id": 7,
+      "name": "Firma Handlowo-Usługowa Styl-Art Anna Czach-Buczyńska",
+      "address": "ul. Mikołajczyka 4 /31, 35-209 Rzeszów",
+      "phone": "(17) 863 09 71",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podkarpackie,,rzeszów,mikołajczyka,4_31/firma_handlowo_uslugowa_styl_art_anna_czach_buczynska-azdbsm_hth.html"
+    },
+    {
+      "id": 8,
+      "name": "Gumiela Teresa",
+      "address": "ul. Sokoła 2 lok. 8, 35-010 Rzeszów",
+      "phone": "(17) 857 21 76",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podkarpackie,,rzeszów,sokoła,2_lok._8/gumiela_teresa-akgdfl_hth.html"
+    },
+    {
+      "id": 9,
+      "name": "Igiełka Marzena Witalec",
+      "address": "ul. Leska 2, 35-505 Rzeszów",
+      "phone": "784 926 564",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podkarpackie,,rzeszów,leska,2/igielka_marzena_witalec-aefcpx_hth.html"
+    },
+    {
+      "id": 10,
+      "name": "\"Igła\" Przeróbki Krawieckie Alicja Lekacz",
+      "address": "ul. Iranka-Osmeckiego 12A lok. 2, 35-506 Rzeszów",
+      "phone": "",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podkarpackie,,rzeszów,iranka_osmeckiego,12a_lok._2/igla_przerobki_krawieckie_alicja_lekacz-abkmrk_hth.html"
+    },
+    {
+      "id": 11,
+      "name": "\"Igła z Nitką\" Dorota Zawiło",
+      "address": "ul. Powstańców Wielkopolskich 2, 35-611 Rzeszów",
+      "phone": "669 397 305",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podkarpackie,,rzeszów,powstańców_wielkopolskich,2/igla_z_nitka_dorota_zawilo-azlatg_hth.html"
+    },
+    {
+      "id": 12,
+      "name": "Iwona Kornacka",
+      "address": "ul. Lisa-Kuli 19, 35-025 Rzeszów",
+      "phone": "",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podkarpackie,,rzeszów,lisa_kuli,19/iwona_kornacka-zxscww_hth.html"
+    },
+    {
+      "id": 13,
+      "name": "\"Kama-Lux\". Maria Kiliańska Przedsiębiorstwo Produkcyjno Usługowo - Handlowe.",
+      "address": "ul. Solarza 18 lok. 29, 35-118 Rzeszów",
+      "phone": "510 187 051",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podkarpackie,,rzeszów,solarza,18_lok._29/kama_lux_._maria_kilianska_przedsiebiorstwo_produkcyjno_uslugowo_handlowe.-afzbbo_hth.html"
+    },
+    {
+      "id": 14,
+      "name": "\"Laguna\" Przedsiębiorstwo Produkcyjno-Handlowe",
+      "address": "ul. Wiosenna 6, 35-303 Rzeszów",
+      "phone": "(17) 862 75 58",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podkarpackie,,rzeszów,wiosenna,6/laguna_przedsiebiorstwo_produkcyjno_handlowe-owdcky_hth.html"
+    },
+    {
+      "id": 15,
+      "name": "Machaj Renata i Andrzej Przedsiębiorstwo Produkcyjno-Usługowo-Handlowe",
+      "address": "ul. Orkana 1, 35-328 Rzeszów",
+      "phone": "",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podkarpackie,,rzeszów,orkana,1/machaj_renata_i_andrzej_przedsiebiorstwo_produkcyjno_uslugowo_handlowe-agcymt_hth.html"
+    },
+    {
+      "id": 16,
+      "name": "Marzena Lis",
+      "address": "ul. Pogwizdowska 149, 35-212 Rzeszów",
+      "phone": "",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podkarpackie,,rzeszów,pogwizdowska,149/marzena_lis-zejzxk_hth.html"
+    },
+    {
+      "id": 17,
+      "name": "\"Miraggio\" Sp. z o.o.",
+      "address": "ul. Łukasiewicza 8a, 35-604 Rzeszów",
+      "phone": "158 244 145",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podkarpackie,,rzeszów,łukasiewicza,8a/miraggio_sp._z_o.o.-ahyaht_hth.html"
+    },
+    {
+      "id": 18,
+      "name": "\"Patmar\" S.C. Krystyna Ziobro Jadwiga Szydełko",
+      "address": "al. Rejtana 27C, 35-310 Rzeszów",
+      "phone": "",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podkarpackie,,rzeszów,al._rejtana,27c/patmar_s.c._krystyna_ziobro_jadwiga_szydelko-ahclat_hth.html"
+    },
+    {
+      "id": 19,
+      "name": "\"Pepe\" S.C.",
+      "address": "ul. Krakowska 7 a lok. 1, 35-111 Rzeszów",
+      "phone": "(17) 863 13 77",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podkarpackie,,rzeszów,krakowska,7_a_lok._1/pepe_s.c.-ajlbip_hth.html"
+    },
+    {
+      "id": 20,
+      "name": "Porada Agnieszka Pracownia Krawiecka",
+      "address": "ul. Podwisłocze 26a, 35-309 Rzeszów",
+      "phone": "606 495 096",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podkarpackie,,rzeszów,podwisłocze,26a/porada_agnieszka_pracownia_krawiecka-odubdp_hth.html"
+    },
+    {
+      "id": 21,
+      "name": "Pracownia Krawiecka Krzysztof Rajchel",
+      "address": "ul. Jasińskiego 24, 35-608 Rzeszów",
+      "phone": "601 420 843",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podkarpackie,,rzeszów,jasińskiego,24/pracownia_krawiecka_krzysztof_rajchel-zuayhw_hth.html"
+    },
+    {
+      "id": 22,
+      "name": "Pracownia Krawiecka Teriza Teresa Szczypek",
+      "address": "al. Rejtana 53 lok. 17\"B\", 35-326 Rzeszów",
+      "phone": "608 279 884",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podkarpackie,,rzeszów,al._rejtana,53_lok._17_b/pracownia_krawiecka_teriza_teresa_szczypek-zcmxlb_hth.html"
+    },
+    {
+      "id": 23,
+      "name": "Przeróbki Krawieckie Bogumiła Daniel",
+      "address": "al. Rejtana 53, 35-326 Rzeszów",
+      "phone": "665 439 523",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podkarpackie,,rzeszów,al._rejtana,53/przerobki_krawieckie_bogumila_daniel-zehszu_hth.html"
+    },
+    {
+      "id": 24,
+      "name": "RENIX Renata Rutkowska",
+      "address": "ul. Lisa-Kuli 16A, 35-025 Rzeszów",
+      "phone": "507 395 039",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podkarpackie,,rzeszów,lisa_kuli,16a/renix_renata_rutkowska-ahnbmc_hth.html"
+    },
+    {
+      "id": 25,
+      "name": "Rtv Framar S.C.",
+      "address": "ul. Ofiar Katynia 6, 35-209 Rzeszów",
+      "phone": "",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podkarpackie,,rzeszów,ofiar_katynia,6/rtv_framar_s.c.-ajlcoe_hth.html"
+    },
+    {
+      "id": 26,
+      "name": "Stroiciel - Jakub Dziurzyński",
+      "address": "ul. Krakusa 5 lok. 9, 35-302 Rzeszów",
+      "phone": "607 485 461",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podkarpackie,,rzeszów,krakusa,5_lok._9/stroiciel_jakub_dziurzynski-ahyzdm_hth.html"
+    },
+    {
+      "id": 27,
+      "name": "Stroje Ludowe \"Miss\" Marzena Matusiak",
+      "address": "ul. Letnia 41, 35-303 Rzeszów",
+      "phone": "608 421 560",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podkarpackie,,rzeszów,letnia,41/stroje_ludowe_miss_marzena_matusiak-sjtsp_hth.html"
+    },
+    {
+      "id": 28,
+      "name": "Usługi Krawieckie",
+      "address": "ul. Słowackiego 16 (Galeria Rzeszów), 35-060 Rzeszów",
+      "phone": "603 957 507",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podkarpackie,,rzeszów,słowackiego,16_(galeria_rzeszów)/uslugi_krawieckie-aolsyr_hth.html"
+    },
+    {
+      "id": 29,
+      "name": "Usługi Krawieckie Beata Rucka",
+      "address": "ul. Mickiewicza 29, 35-064 Rzeszów",
+      "phone": "664 347 482",
+      "rating": 1,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podkarpackie,,rzeszów,mickiewicza,29/uslugi_krawieckie_beata_rucka-zphukw_hth.html"
+    },
+    {
+      "id": 30,
+      "name": "Usługi Krawiecko-Kaletnicze Dorota Gładysz",
+      "address": "ul. Hetmańska 1 /1, 35-045 Rzeszów",
+      "phone": "602 135 283",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podkarpackie,,rzeszów,hetmańska,1_1/uslugi_krawiecko_kaletnicze_dorota_gladysz-aeinjs_hth.html"
+    },
+    {
+      "id": 31,
+      "name": "Zakład Krawiecki",
+      "address": "ul. Marszałkowska 15, 35-215 Rzeszów",
+      "phone": "(17) 861 11 62",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podkarpackie,,rzeszów,marszałkowska,15/zaklad_krawiecki-khays_hth.html"
+    },
+    {
+      "id": 32,
+      "name": "Źrałka Michał Zoo Iguana Michał Źrałka",
+      "address": "al. Okulickiego 6, 35-222 Rzeszów",
+      "phone": "(17) 852 75 12",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podkarpackie,,rzeszów,al._okulickiego,6/zralka_michal_zoo_iguana_michal_zralka-aitsns_hth.html"
+    },
+    {
+      "id": 33,
+      "name": "Joanna Rodzeń-Krawiec-Gabinet Psychologiczny",
+      "address": "ul. Nowosądecka 14/14, 35-505 Rzeszów",
+      "phone": "695 413 577",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/podkarpackie,,rzeszów,nowosądecka,14_14/joanna_rodzen_krawiec_gabinet_psychologiczny-azrzys_gm.html"
+    }
+  ],
+  "torun": [
+    {
+      "id": 1,
+      "name": "Doroty Dorota Kołodziejska Pracownia Krawiecko-Hafciarska",
+      "address": "ul. Działowskiego targowisko manhattan paw. 166, 87-100 Toruń",
+      "phone": "605 426 247",
+      "rating": 5,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,toruń,działowskiego,targowisko_manhattan_paw._166/doroty_dorota_kolodziejska_pracownia_krawiecko_hafciarska-sbegfu_hth.html"
+    },
+    {
+      "id": 2,
+      "name": "\"777-trzy siódemki\" Usługi Krawieckie Anna Rumińska",
+      "address": "ul. Łubinowa 53, 87-100 Toruń",
+      "phone": "(56) 654 40 35",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,toruń,łubinowa,53/777_trzy_siodemki_uslugi_krawieckie_anna_ruminska-kndld_hth.html"
+    },
+    {
+      "id": 3,
+      "name": "Alisha Music Lab-Oleksandr Oliinyk",
+      "address": "ul. Łazienna 30 lok. 9, 87-100 Toruń",
+      "phone": "",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,toruń,łazienna,30_lok._9/alisha_music_lab_oleksandr_oliinyk-bzbcwr_hth.html"
+    },
+    {
+      "id": 4,
+      "name": "\"Beata\" Pracownia Krawiecka Beata Młodawska",
+      "address": "ul. Poznańska 72, 87-100 Toruń",
+      "phone": "693 708 571",
+      "rating": 1,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,toruń,poznańska,72/beata_pracownia_krawiecka_beata_mlodawska-azdbml_hth.html"
+    },
+    {
+      "id": 5,
+      "name": "Corpus Sp. z o.o.",
+      "address": "ul. Kałamarskiego 12 lok. 14, 87-100 Toruń",
+      "phone": "(56) 623 05 09",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,toruń,kałamarskiego,12_lok._14/corpus_sp._z_o.o.-atahre_hth.html"
+    },
+    {
+      "id": 6,
+      "name": "Cyklopunkt Emanuel Weber",
+      "address": "ul. Suwalska 22, 87-100 Toruń",
+      "phone": "500 599 023",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,toruń,suwalska,22/cyklopunkt_emanuel_weber-zkcscs_hth.html"
+    },
+    {
+      "id": 7,
+      "name": "F.H.U.P. \"Hewa\" Ewa Olszewska",
+      "address": "św. Wojciecha 20, 87-100 Toruń",
+      "phone": "691 891 125",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,toruń,św._wojciecha,20/f.h.u.p._hewa_ewa_olszewska-abtiia_hth.html"
+    },
+    {
+      "id": 8,
+      "name": "Firma Usługowo-Handlowa K&K Atelier Kiernozek Krzysztof",
+      "address": "ul. Nowotarska 15, 87-100 Toruń",
+      "phone": "605 338 895",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,toruń,nowotarska,15/firma_uslugowo_handlowa_k&k_atelier_kiernozek_krzysztof-ashpgj_hth.html"
+    },
+    {
+      "id": 9,
+      "name": "F.U. Usługi Krawieckie Marita",
+      "address": "ul. Dziewulskiego 12, 87-100 Toruń",
+      "phone": "515 283 408",
+      "rating": 5,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,toruń,dziewulskiego,12/f.u._uslugi_krawieckie_marita-zbhnga_hth.html"
+    },
+    {
+      "id": 10,
+      "name": "FUH Renata Jóźwiak",
+      "address": "ul. Szosa Chełmińska 31/35, 87-100 Toruń",
+      "phone": "",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,toruń,szosa_chełmińska,31_35/fuh_renata_jozwiak-ztjkgo_hth.html"
+    },
+    {
+      "id": 11,
+      "name": "Japs Agnieszka Prusinowska",
+      "address": "ul. Łyskowskiego 29/35, 87-100 Toruń",
+      "phone": "509 295 216",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,toruń,łyskowskiego,29_35/japs_agnieszka_prusinowska-zbrrgi_hth.html"
+    },
+    {
+      "id": 12,
+      "name": "Keram Marek Bajfus",
+      "address": "ul. Koniuchy 7 e lok. 54, 87-100 Toruń",
+      "phone": "783 969 877",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,toruń,koniuchy,7_e_lok._54/keram_marek_bajfus-zfgfjj_hth.html"
+    },
+    {
+      "id": 13,
+      "name": "Krawieckie Atelier Jolanta Rękosiewicz",
+      "address": "ul. Wielkie Garbary 15, 87-100 Toruń",
+      "phone": "508 279 197",
+      "rating": 5,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,toruń,wielkie_garbary,15/krawieckie_atelier_jolanta_rekosiewicz-awdnsa_hth.html"
+    },
+    {
+      "id": 14,
+      "name": "Oficyna Juliusz Kurczewski",
+      "address": "ul. Wybickiego 47/49 lok. 11, 87-100 Toruń",
+      "phone": "",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,toruń,wybickiego,47_49_lok._11/oficyna_juliusz_kurczewski-bafike_hth.html"
+    },
+    {
+      "id": 15,
+      "name": "Pracownia Krawiecka Marlena Żylak",
+      "address": "ul. Mickiewicza 75 lok. 6, 87-100 Toruń",
+      "phone": "",
+      "rating": 5,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,toruń,mickiewicza,75_lok._6/pracownia_krawiecka_marlena_zylak-zecayn_hth.html"
+    },
+    {
+      "id": 16,
+      "name": "Pracownia Krawiecka Nataliia Yakovenko",
+      "address": "ul. Żółkiewskiego 15 lok. 8, 87-100 Toruń",
+      "phone": "",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,toruń,żółkiewskiego,15_lok._8/pracownia_krawiecka_nataliia_yakovenko-bzfwme_hth.html"
+    },
+    {
+      "id": 17,
+      "name": "Pracownia Krawiectwa Męskiego L. Panecki",
+      "address": "ul. Świętopełka 2, 87-100 Toruń",
+      "phone": "(56) 623 61 32",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,toruń,świętopełka,2/pracownia_krawiectwa_meskiego_l._panecki-zbtell_hth.html"
+    },
+    {
+      "id": 18,
+      "name": "Pracownia Krawiectwa Miarowego \"Paula\" S.C. Dziurlikowska Paulina Kamińska Zofia",
+      "address": "ul. Szosa Chełmińska 141, 87-100 Toruń",
+      "phone": "(56) 654 34 77",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,toruń,szosa_chełmińska,141/pracownia_krawiectwa_miarowego_paula_s.c._dziurlikowska_paulina_kaminska_zofia-mdwsm_hth.html"
+    },
+    {
+      "id": 19,
+      "name": "Rabas Barbara Frąckiewicz-Mirowska",
+      "address": "ul. Chełmińska 11 lok. 19, 87-100 Toruń",
+      "phone": "515 283 296",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,toruń,chełmińska,11_lok._19/rabas_barbara_frackiewicz_mirowska-zcfruf_hth.html"
+    },
+    {
+      "id": 20,
+      "name": "SZPULKA Grzegorz Stocki",
+      "address": "ul. Podgórna 47 lok. 14, 87-100 Toruń",
+      "phone": "661 647 312",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,toruń,podgórna,47_lok._14/szpulka_grzegorz_stocki-ailrdh_hth.html"
+    },
+    {
+      "id": 21,
+      "name": "Usługi Krawieckie Justyna Dobrzyńska",
+      "address": "ul. Grudziądzka 73, 87-100 Toruń",
+      "phone": "",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,toruń,grudziądzka,73/uslugi_krawieckie_justyna_dobrzynska-bafxye_hth.html"
+    },
+    {
+      "id": 22,
+      "name": "Zakład Krawiecki",
+      "address": "ul. Gagarina 36c, 87-100 Toruń",
+      "phone": "501 460 047",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,toruń,gagarina,36c/zaklad_krawiecki-ziypel_hth.html"
+    },
+    {
+      "id": 23,
+      "name": "Zakład Krawiecki Jolanta Poręba",
+      "address": "ul. Mohna 50a, 87-100 Toruń",
+      "phone": "(56) 623 57 14",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,toruń,mohna,50a/zaklad_krawiecki_jolanta_poreba-zsexgj_hth.html"
+    },
+    {
+      "id": 24,
+      "name": "Firma,Handel,Produkcja,Export-Import BELLA Stanisław Cieślak",
+      "address": "ul. Dożynkowa 5, 87-100 Toruń",
+      "phone": "695 633 383",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,toruń,dożynkowa,5/firma_handel_produkcja_export_import_bella_stanislaw_cieslak-shruhi_hdp.html"
+    },
+    {
+      "id": 25,
+      "name": "Interno Juliusz Krawiec",
+      "address": "ul. Szosa Lubicka 22, 87-100 Toruń",
+      "phone": "",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,toruń,szosa_lubicka,22/interno_juliusz_krawiec-bzaszj_jso.html"
+    },
+    {
+      "id": 26,
+      "name": "Interno S.C. Tomasz Wojciech Bartoszewski Juliusz Krawiec",
+      "address": "ul. Szosa Lubicka 22, 87-100 Toruń",
+      "phone": "533 555 680",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,toruń,szosa_lubicka,22/interno_s.c._tomasz_wojciech_bartoszewski_juliusz_krawiec-zncmwz_aswcp.html"
+    },
+    {
+      "id": 27,
+      "name": "Key Pr Edyta Kędzior-Krawiec",
+      "address": "ul. Kozacka 9 lok. 9, 87-100 Toruń",
+      "phone": "663 666 303",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/kujawsko_pomorskie,,toruń,kozacka,9_lok._9/key_pr_edyta_kedzior_krawiec-zragsn_bfu.html"
+    }
+  ],
+  "kielce": [
+    {
+      "id": 1,
+      "name": "2m Bikes Maciej Mularczyk",
+      "address": "ul. Górna 20C lok. 18, 25-415 Kielce",
+      "phone": "",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/świętokrzyskie,,kielce,górna,20c_lok._18/2m_bikes_maciej_mularczyk-zdalmx_hth.html"
+    },
+    {
+      "id": 2,
+      "name": "Anna Robak Atelier",
+      "address": "al. Popiełuszki 56, 25-155 Kielce",
+      "phone": "603 111 959",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/świętokrzyskie,,kielce,al._popiełuszki,56/anna_robak_atelier-zjsmru_hth.html"
+    },
+    {
+      "id": 3,
+      "name": "Bombowa Krawcowa Katarzyna Granat",
+      "address": "ul. Żeromskiego 17 lok. 5, 25-370 Kielce",
+      "phone": "602 663 376",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/świętokrzyskie,,kielce,żeromskiego,17_lok._5/bombowa_krawcowa_katarzyna_granat-zmgupc_hth.html"
+    },
+    {
+      "id": 4,
+      "name": "Dorabianie I Kodowanie Kluczy Robert Surma",
+      "address": "ul. Piekoszowska 114 lok. 28, 25-632 Kielce",
+      "phone": "",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/świętokrzyskie,,kielce,piekoszowska,114_lok._28/dorabianie_i_kodowanie_kluczy_robert_surma-bzrehm_hth.html"
+    },
+    {
+      "id": 5,
+      "name": "Drobne Usługi Krawieckie Chudobska Iwona Włodarek Iwona",
+      "address": "ul. Piotrkowska 39, 25-510 Kielce",
+      "phone": "",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/świętokrzyskie,,kielce,piotrkowska,39/drobne_uslugi_krawieckie_chudobska_iwona_wlodarek_iwona-zhhgic_hth.html"
+    },
+    {
+      "id": 6,
+      "name": "Dryja Elżbieta Pracownia Krawiecka",
+      "address": "ul. Sienkiewicza 76 /7, 25-501 Kielce",
+      "phone": "607 194 592",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/świętokrzyskie,,kielce,sienkiewicza,76_7/dryja_elzbieta_pracownia_krawiecka-afmuuh_hth.html"
+    },
+    {
+      "id": 7,
+      "name": "Ewa Jas Zakład Usługowo Handlowy",
+      "address": "pl. Wolności 7, 25-367 Kielce",
+      "phone": "783 168 377",
+      "rating": 5,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/świętokrzyskie,,kielce,pl._wolności,7/ewa_jas_zaklad_uslugowo_handlowy-aebpop_hth.html"
+    },
+    {
+      "id": 8,
+      "name": "\"Fantazja\" Usługi Krawieckie Krystyna Mikulska",
+      "address": "ul. Kredowa 6 lok. 7, 25-640 Kielce",
+      "phone": "510 226 605",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/świętokrzyskie,,kielce,kredowa,6_lok._7/fantazja_uslugi_krawieckie_krystyna_mikulska-zmhiyh_hth.html"
+    },
+    {
+      "id": 9,
+      "name": "Naprawa Instrumentów Dętych Piotr Ziółkowski",
+      "address": "ul. Studziankowska 6, 25-219 Kielce",
+      "phone": "",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/świętokrzyskie,,kielce,studziankowska,6/naprawa_instrumentow_detych_piotr_ziolkowski-asglol_hth.html"
+    },
+    {
+      "id": 10,
+      "name": "Natallia Barysiuk Studio krawieckie",
+      "address": "ul. Piotrkowska 35, 25-510 Kielce",
+      "phone": "880 965 047",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/świętokrzyskie,,kielce,piotrkowska,35/natallia_barysiuk_studio_krawieckie-boxxeb_hth.html"
+    },
+    {
+      "id": 11,
+      "name": "Studio Odzieży Skórzanej BSK Stanisław Krajcarz",
+      "address": "ul. Piotrkowska 39, 25-510 Kielce",
+      "phone": "885 050 858",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/świętokrzyskie,,kielce,piotrkowska,39/studio_odziezy_skorzanej_bsk_stanislaw_krajcarz-axwlky_hth.html"
+    },
+    {
+      "id": 12,
+      "name": "\"U Krystyny\" Usługui Krawieckie Krystyna Kubicka",
+      "address": "ul. Dewońska 4 lok. LU1, 25-115 Kielce",
+      "phone": "",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/świętokrzyskie,,kielce,dewońska,4_lok._lu1/u_krystyny_uslugui_krawieckie_krystyna_kubicka-zhlhyl_hth.html"
+    },
+    {
+      "id": 13,
+      "name": "Usługi Krawieckie Alicja Przygodzka",
+      "address": "ul. Świętokrzyska 20, 25-406 Kielce",
+      "phone": "",
+      "rating": 1,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/świętokrzyskie,,kielce,świętokrzyska,20/uslugi_krawieckie_alicja_przygodzka-zethag_hth.html"
+    },
+    {
+      "id": 14,
+      "name": "\"Usługi Krawieckie Basia\" Barbara Michta",
+      "address": "ul. Warszawska 147, 25-547 Kielce",
+      "phone": "",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/świętokrzyskie,,kielce,warszawska,147/uslugi_krawieckie_basia_barbara_michta-zxkrbx_hth.html"
+    },
+    {
+      "id": 15,
+      "name": "Usługi Krawieckie Beata Sarek",
+      "address": "ul. Źródłowa 17A, 25-335 Kielce",
+      "phone": "",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/świętokrzyskie,,kielce,źródłowa,17a/uslugi_krawieckie_beata_sarek-zeddfr_hth.html"
+    },
+    {
+      "id": 16,
+      "name": "Usługi Krawieckie Lidia Wąder",
+      "address": "ul. Króla Władysława Jagiełły 13 lok. 37, 25-634 Kielce",
+      "phone": "",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/świętokrzyskie,,kielce,króla_władysława_jagiełły,13_lok._37/uslugi_krawieckie_lidia_wader-apibxp_hth.html"
+    },
+    {
+      "id": 17,
+      "name": "Usługi Krawieckie Małgorzata Brzoza",
+      "address": "ul. Seminaryjska 15, 25-372 Kielce",
+      "phone": "663 182 557",
+      "rating": 4.5,
+      "reviewCount": 8,
+      "sourceUrl": "https://panoramafirm.pl/świętokrzyskie,,kielce,seminaryjska,15/uslugi_krawieckie_malgorzata_brzoza-znthpj_hth.html"
+    },
+    {
+      "id": 18,
+      "name": "Usługi Krawieckie Urszula Borowiec",
+      "address": "ul. Kryształowa 4, 25-751 Kielce",
+      "phone": "",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/świętokrzyskie,,kielce,kryształowa,4/uslugi_krawieckie_urszula_borowiec-zipebz_hth.html"
+    },
+    {
+      "id": 19,
+      "name": "Kancelaria Notarialna Milena Krawiec",
+      "address": "ul. Jana Pawła II 13/17, 25-025 Kielce",
+      "phone": "576 418 800",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/świętokrzyskie,,kielce,jana_pawła_ii,13_17/kancelaria_notarialna_milena_krawiec-shhabe_aud.html"
+    },
+    {
+      "id": 20,
+      "name": "\"Amed Service\" Biuro Handlowe Daniel Krawiec",
+      "address": "ul. Hauke-Bosaka 11, 25-217 Kielce",
+      "phone": "",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/świętokrzyskie,,kielce,hauke_bosaka,11/amed_service_biuro_handlowe_daniel_krawiec-zkszrk_i.html"
+    },
+    {
+      "id": 21,
+      "name": "\"Amed Service\" Biuro Handlowe Małgorzata Krawiec",
+      "address": "ul. Hauke-Bosaka 11, 25-217 Kielce",
+      "phone": "(41) 362 15 17",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/świętokrzyskie,,kielce,hauke_bosaka,11/amed_service_biuro_handlowe_malgorzata_krawiec-znflkg_aof.html"
+    },
+    {
+      "id": 22,
+      "name": "Arte Reklama S.C. S. Krawiec, a. Juszczak",
+      "address": "ul. Podklasztorna 101E lok. U1, 25-714 Kielce",
+      "phone": "697 010 403",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/świętokrzyskie,,kielce,podklasztorna,101e_lok._u1/arte_reklama_s.c._s._krawiec_a._juszczak-zzwtot_bfu.html"
+    },
+    {
+      "id": 23,
+      "name": "\"B.B.\" S.C. Włodzimierz Krawiec Michał Soprych",
+      "address": "ul. Karłowicza 15 lok. 56, 25-357 Kielce",
+      "phone": "",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/świętokrzyskie,,kielce,karłowicza,15_lok._56/b.b._s.c._wlodzimierz_krawiec_michal_soprych-ajpzas_roe.html"
+    },
+    {
+      "id": 24,
+      "name": "Krawiec Jadwiga Sklep Mięsno-Wędliniarski",
+      "address": "ul. Kryształowa 1, 25-751 Kielce",
+      "phone": "(41) 345 04 93",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/świętokrzyskie,,kielce,kryształowa,1/krawiec_jadwiga_sklep_miesno_wedliniarski-meray_sat.html"
+    },
+    {
+      "id": 25,
+      "name": "The School Of English Agnieszka Masternak - Krawiec",
+      "address": "ul. Kościuszki 50 lok. 79, 25-316 Kielce",
+      "phone": "",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/świętokrzyskie,,kielce,kościuszki,50_lok._79/the_school_of_english_agnieszka_masternak_krawiec-adssyp_cfk.html"
+    }
+  ],
+  "czestochowa": [
+    {
+      "id": 1,
+      "name": "Art Studio Ka2 Kateryna Kmechak",
+      "address": "ul. Krakowska 3, 42-202 Częstochowa",
+      "phone": "662 678 267",
+      "rating": 1,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/śląskie,,częstochowa,krakowska,3/art_studio_ka2_kateryna_kmechak-zflhhz_hth.html"
+    },
+    {
+      "id": 2,
+      "name": "\"D & D\" Sp. z o.o.",
+      "address": "ul. Dobra 6, 42-202 Częstochowa",
+      "phone": "797 179 105",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/śląskie,,częstochowa,dobra,6/d_&_d_sp._z_o.o.-skjzt_hth.html"
+    },
+    {
+      "id": 3,
+      "name": "Elżbieta Piekarska Elwama",
+      "address": "ul. Wierzbowa 12A, 42-216 Częstochowa",
+      "phone": "",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/śląskie,,częstochowa,wierzbowa,12a/elzbieta_piekarska_elwama-asjpiu_hth.html"
+    },
+    {
+      "id": 4,
+      "name": "Ewa Kozłowska Modelowanie Firan i Zasłon, Krawiectwo Lekkie",
+      "address": "ul. Kaszubska 53, 42-202 Częstochowa",
+      "phone": "",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/śląskie,,częstochowa,kaszubska,53/ewa_kozlowska_modelowanie_firan_i_zaslon_krawiectwo_lekkie-piexw_hth.html"
+    },
+    {
+      "id": 5,
+      "name": "Górecka Jolanta Usługi Krawieckie",
+      "address": "al. Armii Krajowej 64, 42-215 Częstochowa",
+      "phone": "501 599 066",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/śląskie,,częstochowa,al._armii_krajowej,64/gorecka_jolanta_uslugi_krawieckie-tibrb_hth.html"
+    },
+    {
+      "id": 6,
+      "name": "\"Gugi\" Agnieszka Zagórska",
+      "address": "ul. Batalionów Chłopskich 75, 42-209 Częstochowa",
+      "phone": "515 442 507",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/śląskie,,częstochowa,batalionów_chłopskich,75/gugi_agnieszka_zagorska-zoytzh_hth.html"
+    },
+    {
+      "id": 7,
+      "name": "\"Izabela\" Pracownia Krawiecka Izabela Piczak",
+      "address": "ul. Artyleryjska 53, 42-202 Częstochowa",
+      "phone": "",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/śląskie,,częstochowa,artyleryjska,53/izabela_pracownia_krawiecka_izabela_piczak-abrziw_hth.html"
+    },
+    {
+      "id": 8,
+      "name": "Izula Kreatywne Szycie Izabela Cieślicka",
+      "address": "ul. Brzozowa 2/8, 42-216 Częstochowa",
+      "phone": "604 508 857",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/śląskie,,częstochowa,brzozowa,2_8/izula_kreatywne_szycie_izabela_cieslicka-zgfyrw_hth.html"
+    },
+    {
+      "id": 9,
+      "name": "Joanna Grzywna Firma \"Irys\"",
+      "address": "ul. Kaczorowska 43, 42-202 Częstochowa",
+      "phone": "508 112 535",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/śląskie,,częstochowa,kaczorowska,43/joanna_grzywna_firma_irys-ntykd_hth.html"
+    },
+    {
+      "id": 10,
+      "name": "Jolanta Czerwczak FHU",
+      "address": "ul. Dąbkowskiego 8/10, 42-217 Częstochowa",
+      "phone": "500 613 381",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/śląskie,,częstochowa,dąbkowskiego,8_10/jolanta_czerwczak_fhu-znfglr_hth.html"
+    },
+    {
+      "id": 11,
+      "name": "\"Ko-Tex\" FUH Elżbieta Kotnis",
+      "address": "ul. Czecha 19A lok. 6, 42-224 Częstochowa",
+      "phone": "",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/śląskie,,częstochowa,czecha,19a_lok._6/ko_tex_fuh_elzbieta_kotnis-zscmlw_hth.html"
+    },
+    {
+      "id": 12,
+      "name": "\"Lucyna\" PPUH Studio Mody Łucja Świtalska",
+      "address": "ul. Obrońców Westerplatte 31 lok. 9, 42-218 Częstochowa",
+      "phone": "(34) 325 68 79",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/śląskie,,częstochowa,obrońców_westerplatte,31_lok._9/lucyna_ppuh_studio_mody_lucja_switalska-awxcyd_hth.html"
+    },
+    {
+      "id": 13,
+      "name": "\"Maria\" Artur Chóras Usługi Krawieckie",
+      "address": "ul. Kasprowicza 7, 42-207 Częstochowa",
+      "phone": "",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/śląskie,,częstochowa,kasprowicza,7/maria_artur_choras_uslugi_krawieckie-afxbxx_hth.html"
+    },
+    {
+      "id": 14,
+      "name": "Pogotowie Krawieckie Małgorzata Lis",
+      "address": "ul. Krasińskiego 2 lok. 37, 42-217 Częstochowa",
+      "phone": "",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/śląskie,,częstochowa,krasińskiego,2_lok._37/pogotowie_krawieckie_malgorzata_lis-bzimcg_hth.html"
+    },
+    {
+      "id": 15,
+      "name": "Pogotowie Krawieckie Maria Owczarek",
+      "address": "ul. Bohaterów Katynia 25a, 42-208 Częstochowa",
+      "phone": "",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/śląskie,,częstochowa,bohaterów_katynia,25a/pogotowie_krawieckie_maria_owczarek-zkpxkf_hth.html"
+    },
+    {
+      "id": 16,
+      "name": "Pracownia Krawiecka Halina Koźmińska",
+      "address": "ul. Orkana 54D, 42-229 Częstochowa",
+      "phone": "",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/śląskie,,częstochowa,orkana,54d/pracownia_krawiecka_halina_kozminska-zxfanu_hth.html"
+    },
+    {
+      "id": 17,
+      "name": "Przemysław Błaszczyk. Przemex",
+      "address": "ul. Mireckiego 24 lok. 35, 42-208 Częstochowa",
+      "phone": "601 746 215",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/śląskie,,częstochowa,mireckiego,24_lok._35/przemyslaw_blaszczyk._przemex-zbncji_hth.html"
+    },
+    {
+      "id": 18,
+      "name": "\"Talia\" ZUH Irena Muszyńska",
+      "address": "ul. Witosa 1B lok. 14, 42-224 Częstochowa",
+      "phone": "",
+      "rating": 5,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/śląskie,,częstochowa,witosa,1b_lok._14/talia_zuh_irena_muszynska-zekinu_hth.html"
+    },
+    {
+      "id": 19,
+      "name": "\"Wera\" Przedsiębiorstwo Produkcyjno-Handlowo-Usługowe Maria Sochańska",
+      "address": "ul. Szczytowa 21, 42-200 Częstochowa",
+      "phone": "605 291 259",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/śląskie,,częstochowa,szczytowa,21/wera_przedsiebiorstwo_produkcyjno_handlowo_uslugowe_maria_sochanska-owjetl_hth.html"
+    },
+    {
+      "id": 20,
+      "name": "\"Wiarus\" Usługi Krawieckie Janusz Ślęzak",
+      "address": "ul. Obrońców Westerplatte 21, 42-200 Częstochowa",
+      "phone": "(34) 324 20 96",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/śląskie,,częstochowa,obrońców_westerplatte,21/wiarus_uslugi_krawieckie_janusz_slezak-skirr_hth.html"
+    },
+    {
+      "id": 21,
+      "name": "Gryglicka-Krawiec Wiesława Dr Nauk Med. Spec. Psychiatra",
+      "address": "ul. Orkana 88, 42-229 Częstochowa",
+      "phone": "(34) 363 80 99",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/śląskie,,częstochowa,orkana,88/gryglicka_krawiec_wieslawa_dr_nauk_med._spec._psychiatra-ksscz_gm.html"
+    },
+    {
+      "id": 22,
+      "name": "Sylwia Tomala Firma handlowo usługowa",
+      "address": "ul. Górnicza 14, 43-251 Pawłowice",
+      "phone": "609 502 753",
+      "rating": 4.7,
+      "reviewCount": 6,
+      "sourceUrl": "https://panoramafirm.pl/śląskie,pszczyński,pawłowice,górnicza,14/sylwia_tomala_firma_handlowo_uslugowa-sfunzc_hth.html"
+    },
+    {
+      "id": 23,
+      "name": "Komenda Edyta Firma Phu Usługi Krawieckie Edyta",
+      "address": "ul. Mieszka I 4, 42-500 Będzin",
+      "phone": "662 088 821",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/śląskie,będziński,będzin,mieszka_i,4/komenda_edyta_firma_phu_uslugi_krawieckie_edyta-sgtdpm_hth.html"
+    },
+    {
+      "id": 24,
+      "name": "Studio Krawieckie Złoty Krój",
+      "address": "al. Niepodległości 19, 43-100 Tychy",
+      "phone": "578 812 363",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/śląskie,,tychy,al._niepodległości,19/studio_krawieckie_zloty_kroj-shbbxg_hth.html"
+    }
   ]
 }

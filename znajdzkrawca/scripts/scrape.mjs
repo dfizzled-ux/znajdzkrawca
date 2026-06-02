@@ -16,10 +16,15 @@ const CITIES = [
   { slug: 'gdansk',    region: 'pomorskie,,gdańsk' },
   { slug: 'lodz',      region: 'łódzkie,,łódź' },
   { slug: 'poznan',    region: 'wielkopolskie,,poznań' },
-  { slug: 'katowice',  region: 'śląskie,,katowice' },
-  { slug: 'lublin',    region: 'lubelskie,,lublin' },
-  { slug: 'szczecin',  region: 'zachodniopomorskie,,szczecin' },
-  { slug: 'bydgoszcz', region: 'kujawsko-pomorskie,,bydgoszcz' },
+  { slug: 'katowice',    region: 'śląskie,,katowice' },
+  { slug: 'lublin',      region: 'lubelskie,,lublin' },
+  { slug: 'szczecin',    region: 'zachodniopomorskie,,szczecin' },
+  { slug: 'bydgoszcz',  region: 'kujawsko-pomorskie,,bydgoszcz' },
+  { slug: 'bialystok',  region: 'podlaskie,,białystok' },
+  { slug: 'rzeszow',    region: 'podkarpackie,,rzeszów' },
+  { slug: 'torun',      region: 'kujawsko-pomorskie,,toruń' },
+  { slug: 'kielce',     region: 'świętokrzyskie,,kielce' },
+  { slug: 'czestochowa', region: 'śląskie,,częstochowa' },
 ];
 
 const BASE = 'https://panoramafirm.pl';

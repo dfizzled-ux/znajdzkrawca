@@ -10,10 +10,15 @@ const CITY_ICONS = {
   gdansk:    '⚓',
   lodz:      '🧵',
   poznan:    '🐐',
-  katowice:  '⛏️',
-  lublin:    '🌿',
-  szczecin:  '🚢',
-  bydgoszcz: '🌊',
+  katowice:    '⛏️',
+  lublin:      '🌿',
+  szczecin:    '🚢',
+  bydgoszcz:   '🌊',
+  bialystok:   '🦬',
+  rzeszow:     '🏔️',
+  torun:       '🔭',
+  kielce:      '⛰️',
+  czestochowa: '⛪',
 };
 
 export default function HomePage() {
