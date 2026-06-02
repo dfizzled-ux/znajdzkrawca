@@ -56,7 +56,18 @@ async function extractListings(page) {
         if (tooltip) phone = tooltip.textContent.trim();
       }
 
-      return [{ name, address, phone, sourceUrl }];
+      // Rating — first <p> with a decimal number like "4,8"
+      const allP = Array.from(card.querySelectorAll('p'));
+      const ratingEl = allP.find((p) => /^\d+[,\.]\d+$/.test(p.textContent.trim()));
+      const rating = ratingEl ? parseFloat(ratingEl.textContent.trim().replace(',', '.')) : null;
+
+      // Review count — <p> matching "(N opinii)"
+      const reviewCountEl = allP.find((p) => /\(\d+ opinii\)/.test(p.textContent.trim()));
+      const reviewCount = reviewCountEl
+        ? parseInt(reviewCountEl.textContent.match(/\d+/)[0])
+        : 0;
+
+      return [{ name, address, phone, rating, reviewCount, sourceUrl }];
     });
   });
 }

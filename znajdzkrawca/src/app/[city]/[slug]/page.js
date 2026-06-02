@@ -55,7 +55,16 @@ export default async function TailorPage({ params }) {
     },
     ...(tailor.phone && { telephone: tailor.phone }),
     url: `https://znajdzkrawca.pl/${city}/${slug}`,
+    ...(tailor.rating && tailor.reviewCount > 0 && {
+      aggregateRating: {
+        '@type': 'AggregateRating',
+        ratingValue: tailor.rating,
+        reviewCount: tailor.reviewCount,
+      },
+    }),
   };
+
+  const mapEmbedUrl = `https://maps.google.com/maps?q=${encodeURIComponent(tailor.address)}&output=embed`;
 
   const initials = (() => {
     const words = tailor.name.trim().split(/\s+/);
@@ -93,6 +102,15 @@ export default async function TailorPage({ params }) {
             <div>
               <h1 className="text-3xl font-bold leading-snug">{tailor.name}</h1>
               <p className="text-blue-200 mt-1 text-sm">Pracownia krawiecka · {cityData.name}</p>
+              {tailor.rating && (
+                <div className="flex items-center gap-2 mt-2">
+                  <span className="text-amber-400 text-sm">{'★'.repeat(Math.round(tailor.rating))}{'☆'.repeat(5 - Math.round(tailor.rating))}</span>
+                  <span className="text-white font-semibold text-sm">{tailor.rating.toFixed(1)}</span>
+                  {tailor.reviewCount > 0 && (
+                    <span className="text-blue-200 text-sm">({tailor.reviewCount} opinii)</span>
+                  )}
+                </div>
+              )}
             </div>
           </div>
         </div>
@@ -162,6 +180,19 @@ export default async function TailorPage({ params }) {
               </a>
             )}
           </div>
+        </div>
+
+        <div className="mt-6 rounded-2xl overflow-hidden border border-slate-100 shadow-sm">
+          <iframe
+            src={mapEmbedUrl}
+            width="100%"
+            height="300"
+            style={{ border: 0 }}
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            title={`Mapa: ${tailor.name}`}
+          />
         </div>
 
         <div className="mt-5 p-4 bg-amber-50 border border-amber-200 rounded-2xl text-sm text-amber-800">
