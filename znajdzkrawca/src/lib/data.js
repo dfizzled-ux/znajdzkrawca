@@ -61,6 +61,10 @@ export const cities = [
     slug: 'czestochowa', name: 'Częstochowa', description: 'Miasto Jasnej Góry',
     intro: 'Szukasz krawca w Częstochowie? Nasz katalog zawiera sprawdzonych krawców i pracownie krawieckie z całej Częstochowy. Profesjonalne szycie na miarę i przeróbki odzieży w mieście Jasnej Góry.',
   },
+  {
+    slug: 'radom', name: 'Radom', description: 'Miasto w sercu Mazowsza',
+    intro: 'Szukasz krawca w Radomiu? W katalogu znajdziesz pracownie krawieckie i krawców z całego Radomia. Szycie na miarę, przeróbki i naprawy odzieży w sercu Mazowsza.',
+  },
 ];
 
 export const tailors = tailorsData;

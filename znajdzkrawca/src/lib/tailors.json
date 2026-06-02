@@ -5725,5 +5725,106 @@
       "reviewCount": 0,
       "sourceUrl": "https://panoramafirm.pl/śląskie,,tychy,al._niepodległości,19/studio_krawieckie_zloty_kroj-shbbxg_hth.html"
     }
+  ],
+  "radom": [
+    {
+      "id": 1,
+      "name": "Usługi Krawieckie Iwona Wierzbicka",
+      "address": "ul. Stańczyka 3, 26-600 Radom",
+      "phone": "514 721 416",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/mazowieckie,,radom,stańczyka,3/uslugi_krawieckie_iwona_wierzbicka-sfpljt_hth.html"
+    },
+    {
+      "id": 2,
+      "name": "\"Dolores\" Dorota Szymańska Poprawki Krawieckie",
+      "address": "ul. Skrzydlata 31, 26-600 Radom",
+      "phone": "",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/mazowieckie,,radom,skrzydlata,31/dolores_dorota_szymanska_poprawki_krawieckie-boceyu_hth.html"
+    },
+    {
+      "id": 3,
+      "name": "Edyta Jeżak",
+      "address": "ul. Osiedlowa 17a lok. 36, 26-611 Radom",
+      "phone": "",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/mazowieckie,,radom,osiedlowa,17a_lok._36/edyta_jezak-bzotrd_hth.html"
+    },
+    {
+      "id": 4,
+      "name": "\"Jakar\" Sp.j. Firma Handlowa K. Gajda T. Tomczyk",
+      "address": "ul. Marii Fołtyn 2, 26-615 Radom",
+      "phone": "",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/mazowieckie,,radom,marii_fołtyn,2/jakar_sp.j._firma_handlowa_k._gajda_t._tomczyk-pjmna_hth.html"
+    },
+    {
+      "id": 5,
+      "name": "na Miarę Weronika Bednarczyk",
+      "address": "ul. Gajl 29 lok. 20, 26-600 Radom",
+      "phone": "",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/mazowieckie,,radom,gajl,29_lok._20/na_miare_weronika_bednarczyk-zxihct_hth.html"
+    },
+    {
+      "id": 6,
+      "name": "Opiłowski Julian Pracownia Krawiecka",
+      "address": "ul. Romualda Traugutta 13/2, 26-600 Radom",
+      "phone": "(48) 362 29 43",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/mazowieckie,,radom,romualda_traugutta,13_2/opilowski_julian_pracownia_krawiecka-mdfzz_hth.html"
+    },
+    {
+      "id": 7,
+      "name": "Poprawki Krawieckie Katarzyna Borkowska",
+      "address": "ul. Wernera 10 lok. 58, 26-600 Radom",
+      "phone": "",
+      "rating": 1.1,
+      "reviewCount": 7,
+      "sourceUrl": "https://panoramafirm.pl/mazowieckie,,radom,wernera,10_lok._58/poprawki_krawieckie_katarzyna_borkowska-ztpwtm_hth.html"
+    },
+    {
+      "id": 8,
+      "name": "Wojciechowski Stefan Zakład Krawiecki",
+      "address": "ul. Plac Jagielloński 1, 26-610 Radom",
+      "phone": "506 158 238",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/mazowieckie,,radom,plac_jagielloński,1/wojciechowski_stefan_zaklad_krawiecki-nackn_hth.html"
+    },
+    {
+      "id": 9,
+      "name": "Wrotniak Anna Zakład Usług Krawieckich \"Ekler\"",
+      "address": "ul. Słowackiego 23 lok. 20, 26-600 Radom",
+      "phone": "608 089 595",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/mazowieckie,,radom,słowackiego,23_lok._20/wrotniak_anna_zaklad_uslug_krawieckich_ekler-twogn_hth.html"
+    },
+    {
+      "id": 10,
+      "name": "Indywidualna Praktyka Lekarskałukasz Krawiec",
+      "address": "ul. Posłów Greckich 2 lok. 42, 26-600 Radom",
+      "phone": "",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/mazowieckie,,radom,posłów_greckich,2_lok._42/indywidualna_praktyka_lekarskalukasz_krawiec-zsjthy_ss.html"
+    },
+    {
+      "id": 11,
+      "name": "Krawsell Kacper Krawiec",
+      "address": "ul. Lipska 5 lok. 1, 26-600 Radom",
+      "phone": "",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/mazowieckie,,radom,lipska,5_lok._1/krawsell_kacper_krawiec-bzfwin_zc.html"
+    }
   ]
 }

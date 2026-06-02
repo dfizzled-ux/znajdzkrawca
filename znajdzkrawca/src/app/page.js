@@ -19,6 +19,7 @@ const CITY_ICONS = {
   torun:       '🔭',
   kielce:      '⛰️',
   czestochowa: '⛪',
+  radom:       '🏭',
 };
 
 export default function HomePage() {
