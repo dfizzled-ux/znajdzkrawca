@@ -85,9 +85,20 @@ export default async function CityPage({ params }) {
                     {tailor.name}
                   </h2>
                   <p className="text-slate-500 text-sm mt-0.5 truncate">{tailor.address}</p>
-                  {tailor.phone && (
-                    <p className="text-slate-400 text-xs mt-0.5">{tailor.phone}</p>
-                  )}
+                  <div className="flex items-center gap-2 mt-1">
+                    {tailor.rating && (
+                      <span className="flex items-center gap-1 text-xs">
+                        <span className="text-amber-400">★</span>
+                        <span className="font-medium text-slate-700">{tailor.rating.toFixed(1)}</span>
+                        {tailor.reviewCount > 0 && (
+                          <span className="text-slate-400">({tailor.reviewCount})</span>
+                        )}
+                      </span>
+                    )}
+                    {tailor.phone && (
+                      <span className="text-slate-400 text-xs truncate">{tailor.phone}</span>
+                    )}
+                  </div>
                 </div>
                 <span className="shrink-0 text-slate-300 group-hover:text-blue-500 transition-colors text-lg">→</span>
               </Link>
