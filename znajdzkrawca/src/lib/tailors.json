@@ -2210,6 +2210,96 @@
       "rating": 5,
       "reviewCount": 0,
       "sourceUrl": "https://panoramafirm.pl/pomorskie,,gdańsk,dragana,12/sciebura_maria_zaklad_krawiecki-tflpl_hth.html"
+    },
+    {
+      "id": 26,
+      "name": "\"Tera-Serw\" S.C. Teleradiomechanika Jenek Leszek Staniszewski Albin",
+      "address": "ul. Grażyny 2, 80-437 Gdańsk",
+      "phone": "",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/pomorskie,,gdańsk,grażyny,2/tera_serw_s.c._teleradiomechanika_jenek_leszek_staniszewski_albin-ajlubd_hth.html"
+    },
+    {
+      "id": 27,
+      "name": "tu krawcowa",
+      "address": "ul. Grunwaldzka 82, 80-244 Gdańsk",
+      "phone": "508 383 113",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/pomorskie,,gdańsk,grunwaldzka,82/tu_krawcowa-zebydm_hth.html"
+    },
+    {
+      "id": 28,
+      "name": "tu pralnia",
+      "address": "ul. Grunwaldzka 472, 80-309 Gdańsk",
+      "phone": "508 383 113",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/pomorskie,,gdańsk,grunwaldzka,472/tu_pralnia-zebydp_hth.html"
+    },
+    {
+      "id": 29,
+      "name": "Usługi Krawieckie Bożena Lemankiewicz",
+      "address": "ul. Stryjewskiego 29, 80-631 Gdańsk",
+      "phone": "",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/pomorskie,,gdańsk,stryjewskiego,29/uslugi_krawieckie_bozena_lemankiewicz-zepsho_hth.html"
+    },
+    {
+      "id": 30,
+      "name": "Usługi Krawieckie Pasmanteria Jasia Janina Brejnak",
+      "address": "ul. Żwirki i Wigury 12/17, 80-463 Gdańsk",
+      "phone": "504 793 374",
+      "rating": 3.7,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/pomorskie,,gdańsk,żwirki_i_wigury,12_17/uslugi_krawieckie_pasmanteria_jasia_janina_brejnak-atiokn_hth.html"
+    },
+    {
+      "id": 31,
+      "name": "Velodom Jonatan Mroczek",
+      "address": "ul. Słowackiego 19, 80-257 Gdańsk",
+      "phone": "",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/pomorskie,,gdańsk,słowackiego,19/velodom_jonatan_mroczek-bzoxfk_hth.html"
+    },
+    {
+      "id": 32,
+      "name": "Mk Drift Michał Krawiec",
+      "address": "ul. Antczaka 7a lok. 7, 80-041 Gdańsk",
+      "phone": "725 563 155",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/pomorskie,,gdańsk,antczaka,7a_lok._7/mk_drift_michal_krawiec-bodsje_cgn.html"
+    },
+    {
+      "id": 33,
+      "name": "Piastrella Ewa Wentland i Agnieszka Krawiec S.C.",
+      "address": "al. Grunwaldzka 239, 80-266 Gdańsk",
+      "phone": "",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/pomorskie,,gdańsk,al._grunwaldzka,239/piastrella_ewa_wentland_i_agnieszka_krawiec_s.c.-boexbw_jso.html"
+    },
+    {
+      "id": 34,
+      "name": "Piotr Krawiec",
+      "address": "ul. Lęborska 22c lok. 52, 80-387 Gdańsk",
+      "phone": "",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/pomorskie,,gdańsk,lęborska,22c_lok._52/piotr_krawiec-zkrzts_fph.html"
+    },
+    {
+      "id": 35,
+      "name": "T-Marine Tomasz Krawiec",
+      "address": "ul. Dubois 92, 80-419 Gdańsk",
+      "phone": "",
+      "rating": null,
+      "reviewCount": 0,
+      "sourceUrl": "https://panoramafirm.pl/pomorskie,,gdańsk,dubois,92/t_marine_tomasz_krawiec-zkokfi_pgb.html"
     }
   ],
   "lodz": [
