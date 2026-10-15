@@ -4,7 +4,20 @@ import { notFound } from 'next/navigation';
 import { cities, tailors } from '@/lib/data';
 import { tailorSlug } from '@/lib/slugify';
 import { districtForTailor, districtTitle } from '@/lib/districts';
-import { opinie } from '@/lib/seo';
+import { opinie, byRating } from '@/lib/seo';
+import TailorList from '@/components/TailorList';
+
+const NEARBY_COUNT = 5;
+
+// Same district first (best-rated), then topped up from the rest of the city.
+// Gives thin listing pages useful content and links every tailor page to
+// several others, so Google finds and re-crawls them.
+function nearbyTailors(citySlug, tailor, district) {
+  const others = (tailors[citySlug] ?? []).filter((t) => t.id !== tailor.id);
+  const inDistrict = district ? byRating(others.filter((t) => district.tailors.some((d) => d.id === t.id))) : [];
+  const rest = byRating(others.filter((t) => !inDistrict.includes(t)));
+  return [...inDistrict, ...rest].slice(0, NEARBY_COUNT);
+}
 
 export function generateStaticParams() {
   const params = [];
@@ -48,6 +61,7 @@ export default async function TailorPage({ params }) {
   if (!tailor) notFound();
 
   const district = districtForTailor(city, tailor);
+  const nearby = nearbyTailors(city, tailor, district);
   const mapsUrl = `https://www.google.com/maps/search/${encodeURIComponent(tailor.name + ' ' + tailor.address)}`;
 
   const streetAddress = tailor.address.split(',')[0]?.trim();
@@ -211,6 +225,15 @@ export default async function TailorPage({ params }) {
             title={`Mapa: ${tailor.name}`}
           />
         </div>
+
+        {nearby.length > 0 && (
+          <section className="mt-10">
+            <h2 className="text-xl font-semibold text-slate-900 mb-4">
+              {district ? `Inne pracownie krawieckie w okolicy — ${districtTitle(district)}` : `Inne pracownie krawieckie w ${cityData.loc}`}
+            </h2>
+            <TailorList citySlug={city} tailors={nearby} />
+          </section>
+        )}
 
         <div className="mt-5 p-4 bg-amber-50 border border-amber-200 rounded-2xl text-sm text-amber-800">
           Jesteś właścicielem tej firmy?{' '}
