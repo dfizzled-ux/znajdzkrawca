@@ -3,6 +3,12 @@ import Link from 'next/link';
 import SearchBar from '@/components/SearchBar';
 import { cities, tailors } from '@/lib/data';
 
+export const metadata = {
+  title: 'Krawcowa i krawiec w Twoim mieście — katalog pracowni krawieckich | Znajdź Krawca',
+  description: 'Znajdź krawcową lub krawca w swoim mieście: pracownie krawieckie z 16 miast Polski z adresami, telefonami i opiniami. Przeróbki, poprawki i szycie na miarę.',
+  alternates: { canonical: '/' },
+};
+
 const CITY_ICONS = {
   warszawa:  '🏛️',
   krakow:    '👑',

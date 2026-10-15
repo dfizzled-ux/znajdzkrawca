@@ -12,6 +12,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
+  // Resolves the relative canonical URLs set on each page
+  metadataBase: new URL("https://znajdzkrawca.pl"),
   title: "Znajdź Krawca — Katalog krawców w Polsce",
   description:
     "Katalog krawców i pracowni krawieckich w Polsce. Znajdź krawca w swoim mieście.",

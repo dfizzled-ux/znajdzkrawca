@@ -1,8 +1,10 @@
-import Image from 'next/image';
-import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { cities, tailors } from '@/lib/data';
-import { tailorSlug } from '@/lib/slugify';
+import { districtsFor, districtTitle } from '@/lib/districts';
+import { services } from '@/lib/services';
+import { pracownie } from '@/lib/seo';
+import TailorList from '@/components/TailorList';
+import { PageHero, SiteFooter, LinkPills } from '@/components/PageChrome';
 
 export function generateStaticParams() {
   return cities.map((c) => ({ city: c.slug }));
@@ -12,22 +14,14 @@ export async function generateMetadata({ params }) {
   const { city } = await params;
   const cityData = cities.find((c) => c.slug === city);
   if (!cityData) return {};
+  const n = (tailors[city] ?? []).length;
+  // Search Console: "krawcowa <miasto>" gets far more impressions than
+  // "krawiec <miasto>", so lead with it and keep both
   return {
-    title: `Krawcy w ${cityData.name} — Znajdź Krawca`,
-    description: cityData.intro.substring(0, 155),
+    title: `Krawcowa i krawiec ${cityData.name} — ${pracownie(n)} | Znajdź Krawca`,
+    description: `Krawcowa ${cityData.name}: ${pracownie(n)} w ${cityData.loc} z adresami, telefonami i opiniami. Przeróbki krawieckie, poprawki i szycie na miarę.`,
+    alternates: { canonical: `/${city}` },
   };
-}
-
-function Initials({ name }) {
-  const words = name.trim().split(/\s+/);
-  const letters = words.length >= 2
-    ? words[0][0] + words[1][0]
-    : name.slice(0, 2);
-  return (
-    <div className="shrink-0 w-12 h-12 rounded-full bg-blue-100 text-blue-700 font-bold text-sm flex items-center justify-center uppercase">
-      {letters}
-    </div>
-  );
 }
 
 export default async function CityPage({ params }) {
@@ -36,85 +30,38 @@ export default async function CityPage({ params }) {
   if (!cityData) notFound();
 
   const cityTailors = tailors[city] ?? [];
+  const districts = districtsFor(city);
 
   return (
     <>
-      <header className="relative text-white py-12 px-4 overflow-hidden">
-        <Image
-          src="/hero.jpg"
-          alt=""
-          fill
-          className="object-cover object-center"
-          priority
-        />
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-950/90 via-blue-900/85 to-indigo-950/90" />
-        <div className="relative z-10 max-w-4xl mx-auto">
-          <Link
-            href="/"
-            className="inline-flex items-center gap-1 text-blue-200 hover:text-white text-sm mb-5 transition-colors"
-          >
-            ← Powrót do strony głównej
-          </Link>
-          <h1 className="text-4xl font-bold">Krawcy w {cityData.name}</h1>
-          <p className="text-blue-200 mt-2">
-            {cityTailors.length} pracowni w katalogu
-          </p>
-        </div>
-      </header>
+      <PageHero
+        crumbs={[{ href: '/', label: 'Strona główna' }, { href: `/${city}`, label: cityData.name }]}
+        title={`Krawcowa i krawiec w ${cityData.loc}`}
+        subtitle={`${pracownie(cityTailors.length)} — przeróbki, poprawki i szycie na miarę`}
+      />
 
       <main className="max-w-4xl mx-auto px-4 py-10">
-        <div className="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm mb-8">
+        <div className="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm mb-8 space-y-3">
           <p className="text-slate-600 leading-relaxed">{cityData.intro}</p>
+          <p className="text-slate-600 leading-relaxed">
+            Każda pracownia krawiecka na liście ma adres, telefon i — jeśli są dostępne — opinie klientów.
+            Szukasz krawcowej blisko domu? Wybierz dzielnicę poniżej albo przejrzyj pełną listę.
+          </p>
         </div>
 
-        {cityTailors.length === 0 ? (
-          <p className="text-slate-500 text-center py-16">
-            Brak krawców w tym mieście. Wróć wkrótce!
-          </p>
-        ) : (
-          <div className="space-y-3">
-            {cityTailors.map((tailor) => (
-              <Link
-                key={tailor.id}
-                href={`/${city}/${tailorSlug(tailor)}`}
-                className="group flex items-center gap-4 bg-white rounded-2xl p-5 shadow-sm border border-slate-100 hover:shadow-md hover:border-blue-200 transition-all"
-              >
-                <Initials name={tailor.name} />
-                <div className="flex-1 min-w-0">
-                  <h2 className="text-base font-semibold text-slate-900 group-hover:text-blue-700 transition-colors truncate">
-                    {tailor.name}
-                  </h2>
-                  <p className="text-slate-500 text-sm mt-0.5 truncate">{tailor.address}</p>
-                  <div className="flex items-center gap-2 mt-1">
-                    {tailor.rating && (
-                      <span className="flex items-center gap-1 text-xs">
-                        <span className="text-amber-400">★</span>
-                        <span className="font-medium text-slate-700">{tailor.rating.toFixed(1)}</span>
-                        {tailor.reviewCount > 0 && (
-                          <span className="text-slate-400">({tailor.reviewCount})</span>
-                        )}
-                      </span>
-                    )}
-                    {tailor.phone && (
-                      <span className="text-slate-400 text-xs truncate">{tailor.phone}</span>
-                    )}
-                  </div>
-                </div>
-                <span className="shrink-0 text-slate-300 group-hover:text-blue-500 transition-colors text-lg">→</span>
-              </Link>
-            ))}
-          </div>
-        )}
+        <LinkPills
+          heading={`Krawcowa w dzielnicach — ${cityData.name}`}
+          links={districts.map((d) => ({ href: `/${city}/dzielnica/${d.slug}`, label: `${districtTitle(d)} (${d.tailors.length})` }))}
+        />
+        <LinkPills
+          heading="Usługi krawieckie"
+          links={services.map((s) => ({ href: `/${city}/uslugi/${s.slug}`, label: `${s.short} ${cityData.name}` }))}
+        />
+
+        <TailorList citySlug={city} tailors={cityTailors} />
       </main>
 
-      <footer className="mt-auto border-t border-slate-200 py-6 text-center text-sm text-slate-400">
-        <div className="mb-2">
-          <Link href="/o-nas" className="hover:text-slate-600 transition-colors">O nas</Link>
-          <span className="mx-2">·</span>
-          <a href="mailto:kontakt@znajdzkrawca.pl" className="hover:text-slate-600 transition-colors">Kontakt</a>
-        </div>
-        © 2026 Znajdź Krawca — Katalog krawców w Polsce
-      </footer>
+      <SiteFooter />
     </>
   );
 }

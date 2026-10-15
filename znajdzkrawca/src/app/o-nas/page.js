@@ -4,6 +4,7 @@ import Link from 'next/link';
 export const metadata = {
   title: 'O nas — Znajdź Krawca',
   description: 'Znajdź Krawca to bezpłatny katalog krawców i pracowni krawieckich w Polsce. Pomagamy Polakom znaleźć sprawdzonego krawca w swoim mieście.',
+  alternates: { canonical: '/o-nas' },
 };
 
 export default function ONasPage() {

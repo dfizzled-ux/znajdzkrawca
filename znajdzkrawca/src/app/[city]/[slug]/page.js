@@ -3,6 +3,8 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { cities, tailors } from '@/lib/data';
 import { tailorSlug } from '@/lib/slugify';
+import { districtForTailor, districtTitle } from '@/lib/districts';
+import { opinie } from '@/lib/seo';
 
 export function generateStaticParams() {
   const params = [];
@@ -24,8 +26,16 @@ export async function generateMetadata({ params }) {
   if (!tailor) return {};
 
   return {
-    title: `${tailor.name} — Krawiec w ${cityData.name} | Znajdź Krawca`,
-    description: `${tailor.name} — pracownia krawiecka w ${cityData.name}. Adres: ${tailor.address}. Telefon: ${tailor.phone}.`,
+    title: `${tailor.name} — krawiec, ${cityData.name} | Znajdź Krawca`,
+    // Phone and rating only when present — 262 listings have no phone and used
+    // to show "Telefon: undefined" in search results
+    description: [
+      `${tailor.name} — pracownia krawiecka w ${cityData.loc}.`,
+      `Adres: ${tailor.address}.`,
+      tailor.phone && `Telefon: ${tailor.phone}.`,
+      tailor.rating && tailor.reviewCount > 0 && `Ocena ${tailor.rating.toFixed(1)}/5 (${opinie(tailor.reviewCount)}).`,
+    ].filter(Boolean).join(' '),
+    alternates: { canonical: `/${city}/${slug}` },
   };
 }
 
@@ -37,6 +47,7 @@ export default async function TailorPage({ params }) {
   const tailor = (tailors[city] ?? []).find((t) => tailorSlug(t) === slug);
   if (!tailor) notFound();
 
+  const district = districtForTailor(city, tailor);
   const mapsUrl = `https://www.google.com/maps/search/${encodeURIComponent(tailor.name + ' ' + tailor.address)}`;
 
   const streetAddress = tailor.address.split(',')[0]?.trim();
@@ -93,6 +104,12 @@ export default async function TailorPage({ params }) {
             <span>/</span>
             <Link href={`/${city}`} className="hover:text-white transition-colors">{cityData.name}</Link>
             <span>/</span>
+            {district && (
+              <>
+                <Link href={`/${city}/dzielnica/${district.slug}`} className="hover:text-white transition-colors">{districtTitle(district)}</Link>
+                <span>/</span>
+              </>
+            )}
             <span className="text-white truncate">{tailor.name}</span>
           </nav>
           <div className="flex items-center gap-4">
@@ -101,13 +118,13 @@ export default async function TailorPage({ params }) {
             </div>
             <div>
               <h1 className="text-3xl font-bold leading-snug">{tailor.name}</h1>
-              <p className="text-blue-200 mt-1 text-sm">Pracownia krawiecka · {cityData.name}</p>
+              <p className="text-blue-200 mt-1 text-sm">Pracownia krawiecka · {cityData.name}{district ? ` · ${districtTitle(district)}` : ''}</p>
               {tailor.rating && (
                 <div className="flex items-center gap-2 mt-2">
                   <span className="text-amber-400 text-sm">{'★'.repeat(Math.round(tailor.rating))}{'☆'.repeat(5 - Math.round(tailor.rating))}</span>
                   <span className="text-white font-semibold text-sm">{tailor.rating.toFixed(1)}</span>
                   {tailor.reviewCount > 0 && (
-                    <span className="text-blue-200 text-sm">({tailor.reviewCount} opinii)</span>
+                    <span className="text-blue-200 text-sm">({opinie(tailor.reviewCount)})</span>
                   )}
                 </div>
               )}
@@ -200,13 +217,21 @@ export default async function TailorPage({ params }) {
           <span className="font-medium">Skontaktuj się z nami, aby zaktualizować dane lub dodać zdjęcia.</span>
         </div>
 
-        <div className="mt-8">
+        <div className="mt-8 flex flex-wrap gap-x-6 gap-y-2">
           <Link
             href={`/${city}`}
             className="text-sm text-blue-600 hover:underline"
           >
-            ← Wróć do krawców w {cityData.name}
+            ← Wszyscy krawcy w {cityData.loc}
           </Link>
+          {district && (
+            <Link
+              href={`/${city}/dzielnica/${district.slug}`}
+              className="text-sm text-blue-600 hover:underline"
+            >
+              Inne pracownie — {districtTitle(district)} →
+            </Link>
+          )}
         </div>
       </main>
 
