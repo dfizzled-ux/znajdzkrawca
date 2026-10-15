@@ -68,4 +68,23 @@ export const cities = [
   },
 ];
 
-export const tailors = tailorsData;
+// Not tailors — the Panorama Firm search for "krawiec" also returns businesses
+// whose owner is surnamed Krawiec, plus a few bike/electronics repair shops.
+// Their pages drew junk Search Console queries ("dentysta krawiec wrocław",
+// "dk auto dariusz krawiec"). Filtered here so tailors.json stays as scraped.
+const NOT_TAILORS = {
+  warszawa: [22, 26, 45],         // bike service, barber shop, Fork Lab (bike suspension)
+  wroclaw: [7, 9, 48, 61, 72],    // 3 bike shops, dentist, building contractor
+  gdansk: [6, 26, 32],            // electronics repair, radio/TV repair, MK Drift
+  lodz: [70, 72],                 // DK Auto, radio/TV repair
+  poznan: [48, 50, 52],           // auto parts distributor, printer/PC service, beauty salon
+  bydgoszcz: [2],                 // G.T.-Bike
+  kielce: [1, 4],                 // 2m Bikes, key cutting
+};
+
+export const tailors = Object.fromEntries(
+  Object.entries(tailorsData).map(([city, list]) => [
+    city,
+    list.filter((t) => !(NOT_TAILORS[city] ?? []).includes(t.id)),
+  ])
+);
