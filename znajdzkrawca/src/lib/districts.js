@@ -71,6 +71,25 @@ const DISTRICT_GROUPS = {
     { slug: 'mokre', name: 'Mokre', streets: ['Świętopełka', 'Grudziądzka'], areas: [] },
     { slug: 'bielawy', name: 'Bielawy', streets: ['Suwalska', 'Nowotarska'], areas: ['Piaski'] },
   ],
+  szczecin: [
+    { slug: 'prawobrzeze', name: 'Prawobrzeże', streets: ['Nałkowskiej', 'Struga', 'Wierzyńskiego', 'Rydla', 'Jasna', 'Turkusowa', 'Tarpanowa', 'Młodzieży Polskiej', 'Sanatoryjna', 'Gierczak', 'Drukarska', 'Magnoliowa'], areas: ['Dąbie', 'Osiedle Majowe', 'Osiedle Słoneczne', 'Zdroje', 'Kijewo', 'Wielgowo'] },
+    { slug: 'srodmiescie', name: 'Śródmieście', titleName: 'Śródmieście i Turzyn', streets: ['Jagiellońska', 'Piłsudskiego', 'Mazurska', 'Aleja Niepodległości', 'Wojska Polskiego', 'Bolesława Krzywoustego', 'Kopernika', 'Narutowicza', 'Wyzwolenia', 'Felczaka', 'Bolesława Śmiałego'], areas: ['Centrum', 'Turzyn', 'Łękno'] },
+    { slug: 'niebuszewo', name: 'Niebuszewo', streets: ['Przyjaciół Żołnierza', 'Jarogniewa', 'św. Marcina', 'Staszica'], areas: ['Bolinko', 'os. Książąt Pomorskich'] },
+    { slug: 'pogodno', name: 'Pogodno', streets: ['Anny Walentynowicz', 'Janickiego', 'Traugutta', 'Mickiewicza'], areas: ['os. Somosierry'] },
+    { slug: 'drzetowo-grabowo', name: 'Drzetowo-Grabowo', streets: ['Rugiańska', 'Jana Kazimierza', 'Parkowa'], areas: ['Drzetowo', 'Grabowo'] },
+    { slug: 'gumience', name: 'Gumieńce', titleName: 'Gumieńce i Krzekowo', streets: ['Hrubieszowska', 'Kopańskiego', 'Sianokosów'], areas: ['Krzekowo', 'Bezrzecze'] },
+    { slug: 'pomorzany', name: 'Pomorzany', streets: ['Powstańców Wielkopolskich', 'Mieszka I'], areas: [] },
+  ],
+  bialystok: [
+    { slug: 'centrum', name: 'Centrum', streets: ['św. Rocha', 'Suraska', 'Waryńskiego', 'Bema'], areas: ['Przydworcowe', 'os. Kopernika'] },
+    { slug: 'bojary', name: 'Bojary', streets: ['Warszawska', 'Starobojarska', 'Świętojańska'], areas: [] },
+    { slug: 'kawaleryjskie', name: 'Kawaleryjskie', streets: ['Kręta', 'Pogodna', 'Pułaskiego'], areas: ['Słoboda'] },
+    { slug: 'mlodych', name: 'Młodych', streets: ['Hetmańska'], areas: ['Marczuk'] },
+    { slug: 'sloneczny-stok', name: 'Słoneczny Stok', streets: ['Witosa', 'Upalna'], areas: [] },
+    { slug: 'piaski', name: 'Piaski', streets: ['Legionowa', 'Zwierzyniecka'], areas: ['os. Tysiąclecia'] },
+    { slug: 'zielone-wzgorza', name: 'Zielone Wzgórza', streets: ['Słonecznikowa'], areas: [] },
+    { slug: 'mickiewicza', name: 'Mickiewicza', streets: ['Mickiewicza'], areas: [] },
+  ],
 };
 
 // A district page needs at least this many tailors — anything thinner is a
