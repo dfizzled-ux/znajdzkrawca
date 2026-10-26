@@ -3,7 +3,7 @@
 // Output: src/lib/tailors.json
 
 import { chromium } from 'playwright';
-import { writeFileSync } from 'fs';
+import { existsSync, readFileSync, writeFileSync } from 'fs';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
 
@@ -25,6 +25,7 @@ const CITIES = [
   { slug: 'torun',      region: 'kujawsko-pomorskie,,toruń' },
   { slug: 'kielce',     region: 'świętokrzyskie,,kielce' },
   { slug: 'czestochowa', region: 'śląskie,,częstochowa' },
+  { slug: 'radom',      region: 'mazowieckie,,radom' },
 ];
 
 const BASE = 'https://panoramafirm.pl';
@@ -116,7 +117,33 @@ async function scrapeCity(page, city) {
   return listings;
 }
 
+// Ids are part of every tailor page URL, so a listing keeps its id across
+// runs (matched on its Panorama Firm URL) and new ones get the next free id.
+// Numbering from 1 on each run used to change hundreds of URLs at once.
+// Listings missing from this run are kept, so their pages don't start to 404.
+function mergeCity(existing, scraped) {
+  const byUrl = new Map(existing.map((t) => [t.sourceUrl, t]));
+  let nextId = Math.max(0, ...existing.map((t) => t.id)) + 1;
+  const merged = existing.map((t) => ({ ...t }));
+  let added = 0;
+  for (const item of scraped) {
+    const old = byUrl.get(item.sourceUrl);
+    if (old) {
+      // The name stays as first scraped: it's in the URL slug too
+      const { name, ...fresh } = item;
+      Object.assign(merged.find((t) => t.id === old.id), fresh);
+    } else {
+      merged.push({ id: nextId++, ...item });
+      added++;
+    }
+  }
+  return { merged, added };
+}
+
 async function main() {
+  const outPath = join(__dirname, '..', 'src', 'lib', 'tailors.json');
+  const existing = existsSync(outPath) ? JSON.parse(readFileSync(outPath, 'utf8')) : {};
+
   const browser = await chromium.launch({ headless: true });
   const context = await browser.newContext({
     userAgent:
@@ -126,20 +153,20 @@ async function main() {
   });
   const page = await context.newPage();
 
-  const allData = {};
+  const allData = { ...existing };
   let totalFound = 0;
 
   for (const city of CITIES) {
     console.log(`\nScraping ${city.slug}...`);
     const listings = await scrapeCity(page, city);
-    allData[city.slug] = listings.map((item, i) => ({ id: i + 1, ...item }));
+    const { merged, added } = mergeCity(existing[city.slug] ?? [], listings);
+    allData[city.slug] = merged;
     totalFound += listings.length;
-    console.log(`  Total: ${listings.length} unique listings`);
+    console.log(`  Total: ${listings.length} unique listings, ${added} new`);
   }
 
   await browser.close();
 
-  const outPath = join(__dirname, '..', 'src', 'lib', 'tailors.json');
   writeFileSync(outPath, JSON.stringify(allData, null, 2), 'utf8');
 
   console.log(`\nDone. ${totalFound} total listings → src/lib/tailors.json`);

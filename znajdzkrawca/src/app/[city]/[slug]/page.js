@@ -9,6 +9,17 @@ import TailorList from '@/components/TailorList';
 
 const NEARBY_COUNT = 5;
 
+// Opening hours are stored with Polish day keys by scripts/scrape-details.mjs
+const WEEK = [
+  { key: 'pon', label: 'Poniedziałek', schema: 'Monday' },
+  { key: 'wt', label: 'Wtorek', schema: 'Tuesday' },
+  { key: 'śr', label: 'Środa', schema: 'Wednesday' },
+  { key: 'czw', label: 'Czwartek', schema: 'Thursday' },
+  { key: 'pt', label: 'Piątek', schema: 'Friday' },
+  { key: 'sob', label: 'Sobota', schema: 'Saturday' },
+  { key: 'niedz', label: 'Niedziela', schema: 'Sunday' },
+];
+
 // Same district first (best-rated), then topped up from the rest of the city.
 // Gives thin listing pages useful content and links every tailor page to
 // several others, so Google finds and re-crawls them.
@@ -66,6 +77,8 @@ export default async function TailorPage({ params }) {
 
   const streetAddress = tailor.address.split(',')[0]?.trim();
   const postalCode = tailor.address.match(/\d{2}-\d{3}/)?.[0];
+  const hours = tailor.hours ?? [];
+  const services = tailor.services ?? [];
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -80,6 +93,15 @@ export default async function TailorPage({ params }) {
     },
     ...(tailor.phone && { telephone: tailor.phone }),
     url: `https://znajdzkrawca.pl/${city}/${slug}`,
+    ...(tailor.website && { sameAs: [tailor.website] }),
+    ...(hours.length > 0 && {
+      openingHoursSpecification: hours.map((h) => ({
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: WEEK.find((d) => d.key === h.day).schema,
+        opens: h.opens,
+        closes: h.closes,
+      })),
+    }),
     ...(tailor.rating && tailor.reviewCount > 0 && {
       aggregateRating: {
         '@type': 'AggregateRating',
@@ -181,6 +203,43 @@ export default async function TailorPage({ params }) {
                 </div>
               </div>
             )}
+
+            {hours.length > 0 && (
+              <div className="p-6 flex items-start gap-4">
+                <span className="text-2xl mt-0.5">🕐</span>
+                <div className="flex-1">
+                  <p className="text-xs font-semibold text-slate-400 uppercase tracking-wide mb-2">Godziny otwarcia</p>
+                  <dl className="grid grid-cols-[auto_1fr] gap-x-6 gap-y-1 text-sm">
+                    {WEEK.map((d) => {
+                      const h = hours.find((x) => x.day === d.key);
+                      return (
+                        <div key={d.key} className="contents">
+                          <dt className="text-slate-500">{d.label}</dt>
+                          <dd className={h ? 'text-slate-800 font-medium' : 'text-slate-400'}>{h ? `${h.opens}–${h.closes}` : 'nieczynne'}</dd>
+                        </div>
+                      );
+                    })}
+                  </dl>
+                </div>
+              </div>
+            )}
+
+            {tailor.website && (
+              <div className="p-6 flex items-start gap-4">
+                <span className="text-2xl mt-0.5">🌐</span>
+                <div className="min-w-0">
+                  <p className="text-xs font-semibold text-slate-400 uppercase tracking-wide mb-1">Strona www</p>
+                  <a
+                    href={tailor.website}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:underline break-all"
+                  >
+                    {tailor.website.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '')}
+                  </a>
+                </div>
+              </div>
+            )}
           </div>
 
           <div className="border-t border-slate-100 px-6 py-4 bg-slate-50 flex flex-wrap gap-3">
@@ -212,6 +271,18 @@ export default async function TailorPage({ params }) {
             )}
           </div>
         </div>
+
+        {services.length > 0 && (
+          <section className="mt-6 bg-white rounded-2xl p-6 border border-slate-100 shadow-sm">
+            <h2 className="text-lg font-semibold text-slate-900 mb-3">Usługi — {tailor.name}</h2>
+            <ul className="flex flex-wrap gap-2">
+              {services.map((s) => (
+                <li key={s} className="px-3 py-1 bg-slate-100 text-slate-700 rounded-full text-sm">{s}</li>
+              ))}
+            </ul>
+            <p className="mt-3 text-xs text-slate-400">Według wpisu firmy w Panorama Firm. Zakres usług warto potwierdzić telefonicznie.</p>
+          </section>
+        )}
 
         <div className="mt-6 rounded-2xl overflow-hidden border border-slate-100 shadow-sm">
           <iframe
