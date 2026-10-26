@@ -53,6 +53,24 @@ const DISTRICT_GROUPS = {
     { slug: 'jezyce', name: 'Jeżyce', matches: ['Jeżyce'], areas: ['Ogrody', 'Strzeszyn'] },
     { slug: 'wilda', name: 'Wilda', matches: ['Wilda'], areas: ['Dębiec'] },
   ],
+  // Bydgoszcz and Toruń addresses carry no district (Toruń is one postcode,
+  // 87-100), so these match on street name instead. Streets were placed with
+  // OpenStreetMap on 26-Oct-2026; a re-scrape keeps them valid, unlike ids.
+  bydgoszcz: [
+    { slug: 'fordon', name: 'Fordon', streets: ['Lawinowa', 'Tomasza Golloba', 'Pielęgniarska', 'Górskiego Ochotniczego Pogotowia Ratunkowego', 'Galla Anonima'], areas: ['Tatrzańskie', 'Bajka', 'Szybowników', 'Stary Fordon', 'Przylesie'] },
+    { slug: 'srodmiescie', name: 'Śródmieście', titleName: 'Śródmieście i Stare Miasto', streets: ['Gdańska', 'Poznańska', 'Marcinkowskiego', 'Chodkiewicza 14', 'Dworcowa', 'Jagiellońska'], areas: ['Stare Miasto', 'Bocianowo', 'Sielanka'] },
+    { slug: 'wyzyny', name: 'Wyżyny', titleName: 'Wyżyny i Kapuściska', streets: ['Boya-Żeleńskiego', 'Nałkowskiej', 'Przyjazna', 'Wojska Polskiego'], areas: ['Kapuściska', 'Wzgórze Wolności'] },
+    { slug: 'skrzetusko', name: 'Skrzetusko', streets: ['Chodkiewicza 31', 'Powstańców Śląskich'], areas: ['Bielawy'] },
+  ],
+  torun: [
+    { slug: 'rubinkowo', name: 'Rubinkowo', streets: ['Działowskiego', 'Dziewulskiego', 'Łyskowskiego'], areas: ['Skarpa'] },
+    { slug: 'stare-miasto', name: 'Stare Miasto', streets: ['Łazienna', 'Wielkie Garbary', 'Chełmińska'], areas: ['Starówka'] },
+    { slug: 'chelminskie-przedmiescie', name: 'Chełmińskie Przedmieście', streets: ['Szosa Chełmińska', 'Wybickiego', 'Podgórna'], areas: ['os. Bema', 'os. Lelewela'] },
+    { slug: 'jakubskie-przedmiescie', name: 'Jakubskie Przedmieście', streets: ['Kałamarskiego', 'Żółkiewskiego', 'Szosa Lubicka'], areas: [] },
+    { slug: 'koniuchy', name: 'Koniuchy', streets: ['Koniuchy', 'Mohna', 'Kozacka'], areas: ['Kozackie Góry'] },
+    { slug: 'mokre', name: 'Mokre', streets: ['Świętopełka', 'Grudziądzka'], areas: [] },
+    { slug: 'bielawy', name: 'Bielawy', streets: ['Suwalska', 'Nowotarska'], areas: ['Piaski'] },
+  ],
 };
 
 // A district page needs at least this many tailors — anything thinner is a
@@ -64,17 +82,29 @@ function addressDistrict(address) {
   return address.match(/\d{2}-\d{3}\s+\S+\s+(.+)$/)?.[1]?.trim() ?? null;
 }
 
+// "ul. Lawinowa 1 l. Paw.178, 85-794 Bydgoszcz" → "Lawinowa 1 l. Paw.178"
+function addressStreet(address) {
+  return address.split(',')[0].replace(/^(ul|al|os|pl)\.\s*/i, '').trim();
+}
+
+// A street entry matches the street name ("Gdańska") or, where one street
+// crosses two districts, a street and number ("Chodkiewicza 14")
+function inGroup(g, tailor) {
+  if (g.matches) return g.matches.includes(addressDistrict(tailor.address));
+  const street = addressStreet(tailor.address);
+  return g.streets.some((s) => street === s || street.startsWith(`${s} `));
+}
+
 export function districtsFor(citySlug) {
   const groups = DISTRICT_GROUPS[citySlug] ?? [];
   const cityTailors = tailors[citySlug] ?? [];
   return groups
-    .map((g) => ({ ...g, tailors: cityTailors.filter((t) => g.matches.includes(addressDistrict(t.address))) }))
+    .map((g) => ({ ...g, tailors: cityTailors.filter((t) => inGroup(g, t)) }))
     .filter((g) => g.tailors.length >= MIN_TAILORS);
 }
 
 export function districtForTailor(citySlug, tailor) {
-  const d = addressDistrict(tailor.address);
-  return districtsFor(citySlug).find((g) => g.matches.includes(d)) ?? null;
+  return districtsFor(citySlug).find((g) => g.tailors.some((t) => t.id === tailor.id)) ?? null;
 }
 
 export const districtTitle = (d) => d.titleName ?? d.name;
