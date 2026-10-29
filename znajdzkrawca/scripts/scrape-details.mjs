@@ -3,6 +3,7 @@
 // Usage: npm run scrape:details            — listings not yet visited
 //        npm run scrape:details -- --all   — every listing again
 //        npm run scrape:details -- --limit 3
+//        npm run scrape:details -- --reviews  — only rated listings with no review count
 // Descriptions and reviews are left out on purpose: copied word for word they
 // would duplicate Panorama Firm's pages, and the reviews are customers' text.
 
@@ -19,6 +20,7 @@ const MAX_SERVICES = 15;
 
 const args = process.argv.slice(2);
 const all = args.includes('--all');
+const reviewsOnly = args.includes('--reviews');
 const limit = args.includes('--limit') ? parseInt(args[args.indexOf('--limit') + 1]) : Infinity;
 
 const DAYS = { Monday: 'pon', Tuesday: 'wt', Wednesday: 'śr', Thursday: 'czw', Friday: 'pt', Saturday: 'sob', Sunday: 'niedz' };
@@ -55,13 +57,16 @@ async function extractDetails(page) {
     const label = [...document.querySelectorAll('*')].find((e) => e.childElementCount === 0 && e.textContent.trim() === 'Strona www');
     const website = label?.parentElement?.querySelector('a[href^="http"]')?.getAttribute('href') ?? null;
 
-    return { hours, services, website };
+    const rating = parseFloat(biz.aggregateRating?.ratingValue) || null;
+    const reviewCount = parseInt(biz.aggregateRating?.reviewCount) || 0;
+
+    return { hours, services, website, rating, reviewCount };
   });
 }
 
 async function main() {
   const data = JSON.parse(readFileSync(DATA_PATH, 'utf8'));
-  const todo = Object.values(data).flat().filter((t) => t.sourceUrl && (all || !t.detailsAt)).slice(0, limit);
+  const todo = Object.values(data).flat().filter((t) => t.sourceUrl && (reviewsOnly ? t.rating && !t.reviewCount : all || !t.detailsAt)).slice(0, limit);
   console.log(`${todo.length} listings to visit`);
 
   const browser = await chromium.launch({ headless: true });
@@ -84,9 +89,10 @@ async function main() {
       t.hours = d.hours.filter((h) => DAYS[h.day]).map((h) => ({ day: DAYS[h.day], opens: h.opens, closes: h.closes }));
       t.services = usefulServices(d.services, t.name);
       t.website = d.website;
+      if (d.rating) { t.rating = d.rating; t.reviewCount = d.reviewCount; }
       t.detailsAt = new Date().toISOString().slice(0, 10);
       done++;
-      console.log(`  ${done}/${todo.length} ${t.name.slice(0, 40)} — ${t.hours.length} days, ${t.services.length} services${t.website ? ', www' : ''}`);
+      console.log(`  ${done}/${todo.length} ${t.name.slice(0, 40)} — ${t.hours.length} days, ${t.services.length} services${t.website ? ', www' : ''}${t.rating ? `, ${t.rating}★ (${t.reviewCount})` : ''}`);
     } catch (err) {
       failed++;
       console.error(`  FAILED ${t.name.slice(0, 40)}: ${err.message}`);

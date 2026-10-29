@@ -67,8 +67,9 @@ async function extractListings(page) {
       const ratingEl = allP.find((p) => /^\d+[,\.]\d+$/.test(p.textContent.trim()));
       const rating = ratingEl ? parseFloat(ratingEl.textContent.trim().replace(',', '.')) : null;
 
-      // Review count — <p> matching "(N opinii)"
-      const reviewCountEl = allP.find((p) => /\(\d+ opinii\)/.test(p.textContent.trim()));
+      // Review count — <p> matching "(1 opinia)", "(3 opinie)" or "(7 opinii)".
+      // Matching only "opinii" read every 1–4 count as 0 (86 of 100 ratings)
+      const reviewCountEl = allP.find((p) => /\(\d+ opini[aei]\)/.test(p.textContent.trim()));
       const reviewCount = reviewCountEl
         ? parseInt(reviewCountEl.textContent.match(/\d+/)[0])
         : 0;
