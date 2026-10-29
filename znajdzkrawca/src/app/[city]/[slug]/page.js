@@ -74,6 +74,9 @@ export default async function TailorPage({ params }) {
   const district = districtForTailor(city, tailor);
   const nearby = nearbyTailors(city, tailor, district);
   const mapsUrl = `https://www.google.com/maps/search/${encodeURIComponent(tailor.name + ' ' + tailor.address)}`;
+  // Umami click events per listing ("phone", "website", "directions"): the
+  // numbers to show a tailor what the site sends them
+  const track = (event) => ({ 'data-umami-event': event, 'data-umami-event-tailor': `${city}/${slug}` });
 
   const streetAddress = tailor.address.split(',')[0]?.trim();
   const postalCode = tailor.address.match(/\d{2}-\d{3}/)?.[0];
@@ -180,6 +183,7 @@ export default async function TailorPage({ params }) {
                 <p className="text-slate-800 font-medium">{tailor.address}</p>
                 <a
                   href={mapsUrl}
+              {...track('directions')}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block mt-1 text-sm text-blue-600 hover:underline"
@@ -196,6 +200,7 @@ export default async function TailorPage({ params }) {
                   <p className="text-xs font-semibold text-slate-400 uppercase tracking-wide mb-1">Telefon</p>
                   <a
                     href={`tel:${tailor.phone.replace(/\s/g, '')}`}
+                    {...track('phone')}
                     className="text-xl font-semibold text-slate-900 hover:text-blue-600 transition-colors"
                   >
                     {tailor.phone}
@@ -231,6 +236,7 @@ export default async function TailorPage({ params }) {
                   <p className="text-xs font-semibold text-slate-400 uppercase tracking-wide mb-1">Strona www</p>
                   <a
                     href={tailor.website}
+                    {...track('website')}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-600 hover:underline break-all"
@@ -246,6 +252,7 @@ export default async function TailorPage({ params }) {
             {tailor.phone && (
               <a
                 href={`tel:${tailor.phone.replace(/\s/g, '')}`}
+                {...track('phone')}
                 className="px-5 py-2.5 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-medium text-sm transition-colors"
               >
                 📞 Zadzwoń
@@ -253,6 +260,7 @@ export default async function TailorPage({ params }) {
             )}
             <a
               href={mapsUrl}
+              {...track('directions')}
               target="_blank"
               rel="noopener noreferrer"
               className="px-5 py-2.5 bg-white hover:bg-slate-100 text-slate-700 border border-slate-200 rounded-xl font-medium text-sm transition-colors"

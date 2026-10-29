@@ -1,5 +1,11 @@
 import { Geist, Geist_Mono } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
+
+// Umami (cookieless, so no consent banner). Off until NEXT_PUBLIC_UMAMI_WEBSITE_ID
+// is set in Railway; it's read at build time, so a redeploy picks it up
+const UMAMI_ID = process.env.NEXT_PUBLIC_UMAMI_WEBSITE_ID;
+const UMAMI_SRC = process.env.NEXT_PUBLIC_UMAMI_SRC || "https://cloud.umami.is/script.js";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,6 +33,7 @@ export default function RootLayout({ children }) {
     >
       <body className="min-h-full flex flex-col bg-slate-50 text-slate-900">
         {children}
+        {UMAMI_ID && <Script src={UMAMI_SRC} data-website-id={UMAMI_ID} strategy="afterInteractive" />}
       </body>
     </html>
   );
