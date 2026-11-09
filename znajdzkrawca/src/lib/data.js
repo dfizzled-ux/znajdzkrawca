@@ -82,9 +82,36 @@ const NOT_TAILORS = {
   kielce: [1, 4],                 // 2m Bikes, key cutting
 };
 
+// Same shop listed twice on Panorama Firm (same address and phone), so it had
+// two near-identical pages — Search Console flagged Orjonjo as "Duplicate
+// without user-selected canonical". { duplicateId: keptId }: the older id is
+// kept (it's the one Google indexed), fields it lacks are filled from the
+// duplicate, and the duplicate's URL 301s to it (see [city]/[slug]/page.js).
+export const DUPLICATES = {
+  warszawa: { 72: 4 },    // Barbara Kujawa
+  poznan: { 3: 2 },       // Abc Violetta Mikołajczak
+  bialystok: { 27: 3 },   // Orjonjo Maryna Sztark
+};
+
+function mergeDuplicates(city, list) {
+  const dups = DUPLICATES[city] ?? {};
+  return list
+    .filter((t) => !(t.id in dups))
+    .map((t) => {
+      const dup = list.find((d) => dups[d.id] === t.id);
+      if (!dup) return t;
+      const merged = { ...t };
+      for (const [key, value] of Object.entries(dup)) {
+        const missing = merged[key] == null || (Array.isArray(merged[key]) && merged[key].length === 0);
+        if (missing && value != null) merged[key] = value;
+      }
+      return merged;
+    });
+}
+
 export const tailors = Object.fromEntries(
   Object.entries(tailorsData).map(([city, list]) => [
     city,
-    list.filter((t) => !(NOT_TAILORS[city] ?? []).includes(t.id)),
+    mergeDuplicates(city, list.filter((t) => !(NOT_TAILORS[city] ?? []).includes(t.id))),
   ])
 );

@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { notFound } from 'next/navigation';
-import { cities, tailors } from '@/lib/data';
+import { notFound, permanentRedirect } from 'next/navigation';
+import { cities, tailors, DUPLICATES } from '@/lib/data';
 import { tailorSlug } from '@/lib/slugify';
 import { districtForTailor, districtTitle } from '@/lib/districts';
 import { opinie, byRating } from '@/lib/seo';
@@ -69,7 +69,13 @@ export default async function TailorPage({ params }) {
   if (!cityData) notFound();
 
   const tailor = (tailors[city] ?? []).find((t) => tailorSlug(t) === slug);
-  if (!tailor) notFound();
+  if (!tailor) {
+    // Merged duplicate listing: 301 to the page that was kept
+    const keptId = DUPLICATES[city]?.[slug.match(/-(\d+)$/)?.[1]];
+    const kept = keptId && tailors[city].find((t) => t.id === keptId);
+    if (kept) permanentRedirect(`/${city}/${tailorSlug(kept)}`);
+    notFound();
+  }
 
   const district = districtForTailor(city, tailor);
   const nearby = nearbyTailors(city, tailor, district);
