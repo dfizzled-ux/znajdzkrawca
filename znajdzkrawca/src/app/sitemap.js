@@ -2,6 +2,7 @@ import { cities, tailors } from '@/lib/data';
 import { tailorSlug } from '@/lib/slugify';
 import { districtsFor } from '@/lib/districts';
 import { services } from '@/lib/services';
+import { guides } from '@/lib/guides';
 import { BASE_URL as BASE } from '@/lib/seo';
 
 // lastModified must be the date a page's content really changed: Google
@@ -14,7 +15,7 @@ const LISTINGS = '2026-11-09';
 // Last change to each page template's visible content
 const TEMPLATE = {
   home: '2026-10-15',
-  city: '2026-10-29',
+  city: '2026-11-16',
   district: '2026-10-26',
   service: '2026-10-15',
   tailor: '2026-10-26',
@@ -63,6 +64,8 @@ export default function sitemap() {
   return [
     { url: BASE, lastModified: latest(TEMPLATE.home, LISTINGS), changeFrequency: 'weekly', priority: 1.0 },
     { url: `${BASE}/o-nas`, lastModified: '2026-10-15', changeFrequency: 'yearly', priority: 0.3 },
+    { url: `${BASE}/poradnik`, lastModified: latest(...guides.map((g) => g.updated)), changeFrequency: 'monthly', priority: 0.6 },
+    ...guides.map((g) => ({ url: `${BASE}/poradnik/${g.slug}`, lastModified: g.updated, changeFrequency: 'monthly', priority: 0.7 })),
     ...cityPages,
     ...districtPages,
     ...servicePages,

@@ -32,6 +32,8 @@ export function SiteFooter() {
       <div className="mb-2">
         <Link href="/o-nas" className="hover:text-slate-600 transition-colors">O nas</Link>
         <span className="mx-2">·</span>
+        <Link href="/poradnik" className="hover:text-slate-600 transition-colors">Poradnik</Link>
+        <span className="mx-2">·</span>
         <a href="mailto:kontakt@znajdzkrawca.pl" className="hover:text-slate-600 transition-colors">Kontakt</a>
       </div>
       © 2026 Znajdź Krawca — Katalog krawców w Polsce

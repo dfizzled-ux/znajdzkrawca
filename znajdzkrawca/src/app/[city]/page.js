@@ -4,7 +4,8 @@ import { districtsFor, districtTitle } from '@/lib/districts';
 import { services } from '@/lib/services';
 import { pracownie, opinie, byRating } from '@/lib/seo';
 import { tailorSlug } from '@/lib/slugify';
-import { PRICES, PRICES_YEAR } from '@/lib/prices';
+import { PRICES_YEAR } from '@/lib/prices';
+import { CITY_PRICES, PRICE_LABELS } from '@/lib/cityPrices';
 import Link from 'next/link';
 import TailorList from '@/components/TailorList';
 import { PageHero, SiteFooter, LinkPills } from '@/components/PageChrome';
@@ -40,7 +41,15 @@ export default async function CityPage({ params }) {
   const withPhone = cityTailors.filter((t) => t.phone).length;
   const biggestDistricts = [...districts].sort((a, b) => b.tailors.length - a.tailors.length).slice(0, 3);
   const best = topRated[0];
-  const hem = PRICES[0];
+  // This city's average prices (kb.pl); a city missing from that list
+  // simply shows no price table
+  const prices = CITY_PRICES[city];
+  const priceRows = prices
+    ? [
+        ['hem'], ['taper'], ['skirt'], ['sleeves'],
+        ['zip', 'plus koszt zamka'], ['jacketZip', 'plus koszt zamka'], ['linedDress'],
+      ].map(([k, note]) => ({ service: PRICE_LABELS[k], price: prices[k], note }))
+    : [];
 
   // Answers are built from this city's own listings, so each city page says
   // something different instead of repeating one template
@@ -53,9 +62,9 @@ export default async function CityPage({ params }) {
       q: `Jaka krawcowa w ${cityData.loc} ma najlepsze opinie?`,
       a: `Najwyżej oceniana w katalogu jest ${best.name} — ${best.rating.toFixed(1).replace('.', ',')}/5 (${opinie(best.reviewCount)}). Opinie pochodzą z Panoramy Firm; przy niewielu opiniach warto przeczytać je przed wizytą.`,
     },
-    {
+    prices && {
       q: `Ile kosztuje skrócenie spodni w ${cityData.loc}?`,
-      a: `Zwykle ${hem.range} w ${PRICES_YEAR} r. — w dużych miastach bliżej górnej granicy. Jeansy z zachowaniem oryginalnego szwu i spodnie z podszewką kosztują więcej. Zapytaj o cenę przed zostawieniem ubrania.`,
+      a: `Średnio ok. ${prices.hem} zł w ${PRICES_YEAR} r., a zwężenie spodni ok. ${prices.taper} zł. Jeansy z zachowaniem oryginalnego szwu i spodnie z podszewką kosztują więcej. Zapytaj o cenę przed zostawieniem ubrania.`,
     },
     {
       q: `Czy krawcowa w ${cityData.loc} zrobi poprawkę od ręki?`,
@@ -104,20 +113,27 @@ export default async function CityPage({ params }) {
           </section>
         )}
 
-        <section className="mb-8">
-          <h2 className="text-xl font-bold text-slate-900 mb-1">Ile kosztują przeróbki krawieckie w {cityData.loc}?</h2>
-          <p className="text-slate-500 text-sm mb-3">Orientacyjne ceny w {PRICES_YEAR} r. Każda pracownia ustala własne — zapytaj przed zleceniem.</p>
-          <table className="w-full bg-white rounded-2xl border border-slate-100 shadow-sm text-sm overflow-hidden">
-            <tbody className="divide-y divide-slate-100">
-              {PRICES.map((p) => (
-                <tr key={p.service}>
-                  <td className="px-5 py-2.5 text-slate-700">{p.service}{p.note && <span className="text-slate-400"> ({p.note})</span>}</td>
-                  <td className="px-5 py-2.5 text-right font-semibold text-slate-900 whitespace-nowrap">{p.range}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </section>
+        {priceRows.length > 0 && (
+          <section className="mb-8">
+            <h2 className="text-xl font-bold text-slate-900 mb-1">Ile kosztują przeróbki krawieckie w {cityData.loc}?</h2>
+            <p className="text-slate-500 text-sm mb-3">Średnie ceny w {PRICES_YEAR} r. (cennik miejski kb.pl). Każda pracownia ustala własne — zapytaj przed zleceniem.</p>
+            <table className="w-full bg-white rounded-2xl border border-slate-100 shadow-sm text-sm overflow-hidden">
+              <tbody className="divide-y divide-slate-100">
+                {priceRows.map((p) => (
+                  <tr key={p.service}>
+                    <td className="px-5 py-2.5 text-slate-700">{p.service}{p.note && <span className="text-slate-400"> ({p.note})</span>}</td>
+                    <td className="px-5 py-2.5 text-right font-semibold text-slate-900 whitespace-nowrap">ok. {p.price} zł</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+            <p className="text-sm mt-3">
+              <Link href="/poradnik/cennik-uslug-krawieckich" className="text-blue-700 hover:underline">Porównaj ceny w 16 miastach</Link>
+              <span className="text-slate-300 mx-2">·</span>
+              <Link href="/poradnik/ile-kosztuje-skrocenie-spodni" className="text-blue-700 hover:underline">Ile kosztuje skrócenie spodni?</Link>
+            </p>
+          </section>
+        )}
 
         <h2 className="text-xl font-bold text-slate-900 mb-3">Wszystkie pracownie krawieckie — {cityData.name}</h2>
         <TailorList citySlug={city} tailors={cityTailors} />
